@@ -1,0 +1,29 @@
+{
+  "id": "buy-me-coffee",
+  "name": "Buy Me a Coffee Button",
+  "docs": 12427,
+  "description": "Add a floating Buy Me a Coffee button to your website, making it easy for supporters to show their appreciation through coffee donations. Perfect for creators who want to receive support from their audience!",
+  "license": "free",
+  "settings": {
+    "type": "link",
+    "link": "https://www.buymeacoffee.com/your-profile",
+    "open_in_new_tab": true
+  },
+  "design": {
+    "color": "#FFDD00",
+    "grouped": true,
+    "icon": {
+      "color": "#000",
+      "class": "fa-solid fa-mug-hot"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  }
+}

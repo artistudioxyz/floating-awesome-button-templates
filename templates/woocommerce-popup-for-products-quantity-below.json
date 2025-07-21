@@ -1,0 +1,83 @@
+{
+  "id": "woocommerce-popup-for-products-quantity-below",
+  "name": "WooCommerce Popup for Products Quantity Below {quantity}",
+  "description": "Display a popup for WooCommerce products with stock quantity below a specified threshold. Perfect for creating urgency and highlighting limited availability!",
+  "license": "free",
+  "settings": {
+    "type": "modal",
+    "content": "⚡ LOW STOCK ALERT! Only a few units left - this popular item is selling fast! Order now to avoid disappointment. Once they're gone, they're gone! Don't miss out on this must-have product! 🏃‍♂️"
+  },
+  "design": {
+    "color": "#7f54b3",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-boxes-stacked"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  },
+  "modal": {
+    "layout": {
+      "id": "stacked",
+      "background": {
+        "color": "#fff"
+      },
+      "overlay": {
+        "color": "#f9f9f9",
+        "opacity": 0.8
+      },
+      "content": {
+        "padding": {
+          "top": "1",
+          "right": "1",
+          "bottom": "1",
+          "left": "1",
+          "sizing": "rem"
+        },
+        "margin": {
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "sizing": "rem"
+        }
+      }
+    },
+    "navigation": {
+      "iconCover": true
+    }
+  },
+  "location": [
+    {
+      "logic": null,
+      "rules": [
+        {
+          "type": "fields_custom_postmeta",
+          "operator": "==",
+          "value": {
+            "meta_key": "_manage_stock",
+            "meta_value": "yes"
+          },
+          "logic": "OR"
+        },
+        {
+          "type": "fields_custom_postmeta",
+          "operator": "<",
+          "value": {
+            "meta_key": "_stock",
+            "meta_value": "10"
+          },
+          "logic": "OR"
+        }
+      ]
+    }
+  ]
+}

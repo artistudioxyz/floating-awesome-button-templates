@@ -1,0 +1,53 @@
+{
+  "id": "toast-april-fools-day",
+  "name": "April Fools' Day Toast",
+  "description": "Add a playful April Fools' Day toast notification to share some fun with your visitors. Perfect for adding a touch of humor and lighthearted pranks to your website!",
+  "license": "premium",
+  "settings": {
+    "type": "toast",
+    "message": "Happy April Fools' Day! Don't believe everything you see today!",
+    "duration": 3000,
+    "text_button": "Got Me!",
+    "url_button": "#",
+    "open_in_new_tab": false
+  },
+  "design": {
+    "color": "#E74C3C",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-face-grin-tears"
+    },
+    "closeable": true,
+    "gravity": "top",
+    "position": "left",
+    "background": "#fff",
+    "text_color": "#020202",
+    "bar_color": "#E74C3C",
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  },
+  "cookie": {
+    "expiration": "0"
+  },
+  "location": [
+    {
+      "logic": null,
+      "rules": [
+        {
+          "type": "schedule_yearly",
+          "operator": "==",
+          "value": "2024-04-01",
+          "logic": "OR"
+        }
+      ]
+    }
+  ]
+}

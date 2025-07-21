@@ -1,0 +1,42 @@
+{
+  "id": "woocommerce-apply-coupon-first-order",
+  "name": "WooCommerce Apply Coupon After First Order",
+  "description": "Add a floating coupon button that appears after a customer completes their first order. Perfect for encouraging repeat purchases with special discounts!",
+  "license": "premium",
+  "requires": ["woocommerce/woocommerce.php"],
+  "settings": {
+    "type": "apply_coupon"
+  },
+  "design": {
+    "color": "#7f54b3",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-gift"
+    },
+    "animation": "pulse",
+    "closeable": true,
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "rounded",
+    "standalone": true
+  },
+  "location": [
+    {
+      "logic": null,
+      "rules": [
+        {
+          "type": "wc_number_of_customer_orders",
+          "operator": "==",
+          "value": "1",
+          "logic": "AND"
+        }
+      ]
+    }
+  ]
+}

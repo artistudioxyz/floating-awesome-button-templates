@@ -1,0 +1,40 @@
+{
+  "id": "woocommerce-apply-coupon-spend-x-get-y-off",
+  "name": "WooCommerce Apply Coupon - Spend $X Get Y% Off",
+  "description": "Add a floating coupon button that appears when customers reach a specific cart subtotal threshold. Perfect for encouraging larger purchases with a 'Spend $X Get Y% Off' promotion!",
+  "license": "premium",
+  "requires": ["woocommerce/woocommerce.php"],
+  "settings": {
+    "type": "apply_coupon"
+  },
+  "design": {
+    "color": "#7f54b3",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-gift"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "rounded",
+    "standalone": true
+  },
+  "location": [
+    {
+      "logic": null,
+      "rules": [
+        {
+          "type": "wc_cart_subtotal",
+          "operator": ">=",
+          "value": "50",
+          "logic": "OR"
+        }
+      ]
+    }
+  ]
+}

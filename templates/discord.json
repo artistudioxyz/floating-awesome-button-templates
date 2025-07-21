@@ -1,0 +1,29 @@
+{
+  "id": "discord",
+  "name": "Discord Button",
+  "docs": 12724,
+  "description": "Add a floating Discord button to your website, making it easy for visitors to join your community. Perfect for gaming communities and online groups!",
+  "license": "free",
+  "settings": {
+    "type": "link",
+    "link": "https://discord.gg/your-invite-link",
+    "open_in_new_tab": true
+  },
+  "design": {
+    "color": "#5865F2",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-brands fa-discord"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  }
+}

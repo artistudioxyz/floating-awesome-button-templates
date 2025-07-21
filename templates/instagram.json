@@ -1,0 +1,28 @@
+{
+  "id": "instagram",
+  "name": "Instagram Button",
+  "description": "Add a floating Instagram button to your website, allowing visitors to quickly follow your Instagram profile or view your latest posts. Perfect for social media engagement and brand building!",
+  "license": "free",
+  "settings": {
+    "type": "link",
+    "link": "https://instagram.com/yourusername",
+    "open_in_new_tab": true
+  },
+  "design": {
+    "color": "#E4405F",
+    "grouped": true,
+    "icon": {
+      "color": "#fff", 
+      "class": "fa-brands fa-instagram"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  }
+}

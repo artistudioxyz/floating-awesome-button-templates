@@ -1,0 +1,26 @@
+{
+  "id": "scroll-to-top",
+  "name": "Scroll To Top Button",
+  "description": "Add a floating scroll-to-top button to your website, enabling visitors to instantly return to the top of the page with a single click. Perfect for long-form content and improved navigation!",
+  "license": "free",
+  "settings": {
+    "type": "scrolltotop"
+  },
+  "design": {
+    "color": "#2563eb",
+    "grouped": true,
+    "icon": {
+      "color": "#fff", 
+      "class": "fa-solid fa-arrow-up"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  }
+}

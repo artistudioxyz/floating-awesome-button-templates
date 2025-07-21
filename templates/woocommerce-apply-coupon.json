@@ -1,0 +1,28 @@
+{
+  "id": "woocommerce-apply-coupon",
+  "name": "WooCommerce Apply Coupon",
+  "docs": 12380,
+  "description": "Add a floating coupon button that follows your customers as they browse your WooCommerce store. Enables customers to quickly apply coupons from anywhere on your site!",
+  "license": "free",
+  "requires": ["woocommerce/woocommerce.php"],
+  "settings": {
+    "type": "apply_coupon"
+  },
+  "design": {
+    "color": "#7f54b3",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-gift"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "join-waitlist-toast",
+  "name": "Join Waitlist Toast",
+  "description": "Add a waitlist signup toast notification to capture interest from website visitors. Perfect for building anticipation and collecting leads before launch!",
+  "license": "free",
+  "settings": {
+    "type": "toast",
+    "message": "Join our waitlist to be the first to know when we launch!",
+    "duration": 3000,
+    "text_button": "Join Waitlist",
+    "url_button": "#",
+    "open_in_new_tab": true
+  },
+  "design": {
+    "color": "#9C27B0",
+    "icon": {
+        "color": "#fff",
+        "class": "fa-solid fa-hourglass-half"
+    },
+    "closeable": true,
+    "gravity": "top",
+    "position": "left", 
+    "background": "#fff",
+    "text_color": "#020202",
+    "bar_color": "#9C27B0",
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    }
+  },
+  "cookie": {
+    "expiration": "7"
+  }
+}

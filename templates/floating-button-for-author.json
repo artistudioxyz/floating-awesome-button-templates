@@ -1,0 +1,40 @@
+{
+  "id": "floating-button-for-author",
+  "name": "Floating Button for Authors",
+  "description": "Display a floating button that only appears for author users. Perfect for quick access to content creation, post management, and authoring functions!",
+  "license": "premium",
+  "settings": {
+    "type": "link",
+    "link": "#"
+  },
+  "design": {
+    "color": "#2196F3",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-feather"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  },
+  "location": [
+    {
+      "logic": null,
+      "rules": [
+        {
+          "type": "user_role",
+          "operator": "==",
+          "value": "author",
+          "logic": "OR"
+        }
+      ]
+    }
+  ]
+}

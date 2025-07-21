@@ -1,0 +1,42 @@
+{
+  "id": "woocommerce-product-information",
+  "name": "WooCommerce Product Information Button",
+  "docs": 12563,
+  "description": "Display a floating button that appears only on WooCommerce product pages. Perfect for showing product details, specifications, size guides, or additional information!",
+  "license": "premium",
+  "requires": ["woocommerce/woocommerce.php"],
+  "settings": {
+    "type": "modal",
+    "content": "Add product information here"
+  },
+  "design": {
+    "color": "#7f54b3",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-circle-info"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  },
+  "location": [
+    {
+      "logic": null,
+      "rules": [
+        {
+          "type": "post_type",
+          "operator": "==",
+          "value": "product",
+          "logic": "OR"
+        }
+      ]
+    }
+  ]
+}

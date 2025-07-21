@@ -1,0 +1,27 @@
+{
+  "id": "woocommerce-popup-featured-product-category",
+  "name": "WooCommerce Featured Product Category Popup",
+  "description": "Display a floating button that shows a popup with featured products from a specific WooCommerce category. Perfect for highlighting and promoting your best products!",
+  "license": "premium",
+  "requires": ["woocommerce/woocommerce.php"],
+  "settings": {
+    "type": "featured_product_category"
+  },
+  "design": {
+    "color": "#7f54b3",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-list-check"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "woocommerce-toast-november-promotion",
+  "name": "WooCommerce November Promotion Toast",
+  "description": "Add a toast notification to promote your November Thanksgiving/Black Friday sale. Perfect for WooCommerce stores looking to boost sales during the holiday season!",
+  "license": "premium",
+  "requires": ["woocommerce/woocommerce.php"],
+  "settings": {
+    "type": "toast",
+    "message": "Black Friday Early Access! Get up to 50% off on selected items before the rush!",
+    "duration": 3000,
+    "text_button": "Shop Now",
+    "url_button": "/shop",
+    "open_in_new_tab": false
+  },
+  "design": {
+    "color": "#7f54b3",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-tag"
+    },
+    "closeable": true,
+    "gravity": "top",
+    "position": "left",
+    "background": "#fff",
+    "text_color": "#020202",
+    "bar_color": "#795548",
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  },
+  "cookie": {
+    "expiration": "0"
+  },
+  "location": [
+    {
+      "logic": null,
+      "rules": [
+        {
+          "type": "schedule_month",
+          "operator": "==",
+          "value": "11",
+          "logic": "AND"
+        }
+      ]
+    }
+  ]
+}

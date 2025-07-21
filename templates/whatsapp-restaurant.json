@@ -1,0 +1,30 @@
+{
+  "id": "whatsapp-restaurant",
+  "docs": 12285,
+  "name": "WhatsApp Restaurant",
+  "description": "Add a WhatsApp button that connects diners directly to your restaurant. Perfect for restaurants, cafes, and food businesses looking to handle reservations, takeout orders, and customer inquiries through WhatsApp!",
+  "license": "free",
+  "settings": {
+    "type": "link",
+    "link": "https://api.whatsapp.com/send?phone=+112345678910",
+    "content": "🍽️ Welcome to [Your Restaurant Name] 👨‍🍳\n\nThank you for choosing us! We're excited to serve you.\n\n🌟 OUR SPECIALTIES:\n\n🥘 Chef's Special: Fresh daily creations\n🍖 House Favorites: Our most loved dishes\n🥗 Healthy Options: Light & nutritious choices\n🍷 Fine Wines: Curated wine selection\n\n💫 WHY DINE WITH US?\n✅ Fresh Ingredients - Farm to table quality\n✅ Expert Chefs - Culinary masterminds\n✅ Cozy Ambiance - Perfect for any occasion\n✅ Outstanding Service - Your satisfaction guaranteed\n\n📍 RESTAURANT INFO:\n⏰ Hours: [Operating Hours]\n📞 WhatsApp: [Your Number]\n🌐 Website: [Your Website]\n📍 Location: [Your Address]\n\n🔥 SPECIAL OFFERS:\n• Happy Hour: 50% off drinks (5-7pm)\n• Weekend Brunch Special\n• Family Package Deals\n\n🎉 SERVICES:\n• Dine-in Reservations\n• Takeaway Orders\n• Private Events\n• Catering Services\n\n📱 HOW TO ORDER:\n1. Browse our menu: [Menu Link]\n2. Send us your selection\n3. Specify pickup/delivery time\n4. We'll confirm your order!\n\nReady to order? Just send us a message! 😊",
+    "open_in_new_tab": true
+  },
+  "design": {
+    "color": "#25D366",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-brands fa-whatsapp"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  }
+}

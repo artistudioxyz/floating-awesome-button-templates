@@ -1,0 +1,28 @@
+{
+  "id": "zoom",
+  "name": "Zoom Button",
+  "description": "Add a floating Zoom button to your website, enabling visitors to quickly join your Zoom meetings or contact you via Zoom. Perfect for virtual meetings and online consultations!",
+  "license": "free",
+  "settings": {
+    "type": "link",
+    "link": "https://zoom.us/j/your-meeting-id",
+    "open_in_new_tab": true
+  },
+  "design": {
+    "color": "#2D8CFF",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-video"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  }
+}

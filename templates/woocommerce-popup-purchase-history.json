@@ -1,0 +1,27 @@
+{
+  "id": "woocommerce-popup-purchase-history",
+  "name": "WooCommerce Purchase History Popup",
+  "description": "Display a floating button that shows a popup with customer's purchase history from WooCommerce. Perfect for helping customers quickly access products they've previously purchased!",
+  "license": "premium",
+  "requires": ["woocommerce/woocommerce.php"],
+  "settings": {
+    "type": "purchase_history"
+  },
+  "design": {
+    "color": "#7f54b3",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-user-clock"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  }
+}

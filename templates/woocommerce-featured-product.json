@@ -1,0 +1,29 @@
+{
+  "docs": 12375,
+  "id": "woocommerce-featured-product",
+  "name": "WooCommerce Featured Product",
+  "description": "Add a floating featured product button that highlights your best products as customers browse your WooCommerce store. Perfect for promoting special offers and driving attention to specific products!",
+  "license": "free",
+  "requires": ["woocommerce/woocommerce.php"],
+  "settings": {
+    "type": "featured_product",
+    "message": "Check out our featured product!"
+  },
+  "design": {
+    "color": "#7f54b3",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-star"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  }
+}

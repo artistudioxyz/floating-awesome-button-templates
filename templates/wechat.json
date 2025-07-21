@@ -1,0 +1,28 @@
+{
+  "id": "wechat",
+  "name": "WeChat Button",
+  "description": "Add a floating WeChat button to your website, enabling visitors to connect with you on China's most popular messaging platform. Perfect for businesses and individuals engaging with Chinese audiences!",
+  "license": "free",
+  "settings": {
+    "type": "link",
+    "link": "https://wechat.com/your-profile",
+    "open_in_new_tab": true
+  },
+  "design": {
+    "color": "#07C160",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-brands fa-weixin"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  }
+}

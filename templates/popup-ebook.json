@@ -1,0 +1,58 @@
+{
+  "id": "popup-ebook",
+  "name": "Popup eBook",
+  "description": "Add a popup window to showcase your eBook with a 3D mockup. Perfect for promoting digital products and capturing leads!",
+  "license": "free",
+  "settings": {
+    "type": "modal",
+    "content": "[fab_ebook_mockup cover_image='https://placehold.co/400x600' title='The Art of Simple Living' author='Jane Doe' description='Discover practical strategies to simplify your life and find joy in everyday moments. This guide offers 100+ actionable tips for a more peaceful, productive life.' button_text='Buy Now' button_link='#']"
+  },
+  "design": {
+    "color": "#9C27B0",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-book"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  },
+  "modal": {
+    "navigation": {
+      "iconCover": false
+    },
+    "layout": {
+      "id": "stacked",
+      "background": {
+        "color": "#fff"
+      },
+      "overlay": {
+        "color": "#f9f9f9",
+        "opacity": 0.8
+      },
+      "content": {
+        "padding": {
+          "top": "1",
+          "right": "1",
+          "bottom": "1",
+          "left": "1",
+          "sizing": "rem"
+        },
+        "margin": {
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "sizing": "rem"
+        }
+      }
+    }
+  }
+}

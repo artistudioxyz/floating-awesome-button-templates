@@ -1,0 +1,53 @@
+{
+  "id": "toast-annual-membership-drive",
+  "name": "Annual Membership Drive Toast",
+  "description": "Add a toast notification to promote your annual membership drive. Perfect for encouraging visitors to become members and support your organization!",
+  "license": "premium",
+  "settings": {
+    "type": "toast",
+    "message": "Support our mission! Join during our annual membership drive.",
+    "duration": 3000,
+    "text_button": "Become a Member",
+    "url_button": "#",
+    "open_in_new_tab": false
+  },
+  "design": {
+    "color": "#2ECC71",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-users"
+    },
+    "closeable": true,
+    "gravity": "top",
+    "position": "left",
+    "background": "#fff",
+    "text_color": "#020202",
+    "bar_color": "#2ECC71",
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  },
+  "cookie": {
+    "expiration": "0"
+  },
+  "location": [
+    {
+      "logic": null,
+      "rules": [
+        {
+          "type": "schedule_yearly",
+          "operator": "==",
+          "value": "2024-02-01",
+          "logic": "OR"
+        }
+      ]
+    }
+  ]
+}

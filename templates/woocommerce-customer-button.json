@@ -1,0 +1,41 @@
+{
+  "id": "woocommerce-customer-button",
+  "name": "WooCommerce Customer Button",
+  "description": "Display a floating button that only appears for customer users. Perfect for quick access to order history, account details, and customer-specific features!",
+  "license": "premium",
+  "requires": ["woocommerce/woocommerce.php"],
+  "settings": {
+    "type": "link",
+    "link": "#"
+  },
+  "design": {
+    "color": "#7f54b3",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-user"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  },
+  "location": [
+    {
+      "logic": null,
+      "rules": [
+        {
+          "type": "user_role",
+          "operator": "==",
+          "value": "customer",
+          "logic": "OR"
+        }
+      ]
+    }
+  ]
+}

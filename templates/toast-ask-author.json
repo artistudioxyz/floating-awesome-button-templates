@@ -1,0 +1,53 @@
+{
+  "id": "toast-ask-author",
+  "name": "Ask Author Toast",
+  "description": "Add a floating toast that displays the post author's name with a contact button. Perfect for engaging readers with the content creator directly!",
+  "license": "premium",
+  "settings": {
+    "type": "toast",
+    "message": "Have a question for {post_author}?",
+    "duration": 3000,
+    "text_button": "Ask Now",
+    "url_button": "#",
+    "open_in_new_tab": false
+  },
+  "design": {
+    "color": "#2196F3",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-user"
+    },
+    "closeable": true,
+    "gravity": "top",
+    "position": "left",
+    "background": "#fff",
+    "text_color": "#020202",
+    "bar_color": "#2196F3",
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  },
+  "cookie": {
+    "expiration": "0"
+  },
+  "location": [
+    {
+      "logic": null,
+      "rules": [
+        {
+          "type": "post_type",
+          "operator": "==",
+          "value": "post",
+          "logic": "OR"
+        }
+      ]
+    }
+  ]
+}

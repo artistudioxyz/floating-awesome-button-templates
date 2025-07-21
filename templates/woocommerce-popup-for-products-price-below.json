@@ -1,0 +1,74 @@
+{
+  "id": "woocommerce-popup-for-products-price-below",
+  "name": "WooCommerce Popup for Products Price Below {price}",
+  "description": "Display a popup for WooCommerce products with price below a specified threshold. Great for promoting sales and special offers!",
+  "license": "free",
+  "settings": {
+    "type": "modal",
+    "content": "🎉 INCREDIBLE DEAL ALERT! Act fast - this premium product is now under $100! Buy 10 and unlock an EXCLUSIVE bulk discount that will save you serious money. Limited time offer - these deals won't last long. Click now to take advantage of this amazing opportunity before it's gone! ✨"
+  },
+  "design": {
+    "color": "#7f54b3",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-circle-dollar-to-slot"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  },
+  "modal": {
+    "layout": {
+      "id": "stacked",
+      "background": {
+        "color": "#fff"
+      },
+      "overlay": {
+        "color": "#f9f9f9",
+        "opacity": 0.8
+      },
+      "content": {
+        "padding": {
+          "top": "1",
+          "right": "1",
+          "bottom": "1",
+          "left": "1",
+          "sizing": "rem"
+        },
+        "margin": {
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "sizing": "rem"
+        }
+      }
+    },
+    "navigation": {
+      "iconCover": true
+    }
+  },
+  "location": [
+    {
+      "logic": null,
+      "rules": [
+        {
+          "type": "fields_custom_postmeta",
+          "operator": "<",
+          "value": {
+            "meta_key": "_price",
+            "meta_value": "100"
+          },
+          "logic": "OR"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "toast-world-environment-day",
+  "name": "World Environment Day Toast",
+  "description": "Add an environmental toast notification to celebrate World Environment Day and promote environmental awareness. Perfect for organizations committed to sustainability and environmental protection!",
+  "license": "premium",
+  "settings": {
+    "type": "toast",
+    "message": "Today is World Environment Day. Let's work together to protect our planet and create a sustainable future.",
+    "duration": 3000,
+    "text_button": "Take Action",
+    "url_button": "https://www.un.org/en/observances/environment-day",
+    "open_in_new_tab": false
+  },
+  "design": {
+    "color": "#4CAF50",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-leaf"
+    },
+    "closeable": true,
+    "gravity": "top",
+    "position": "left",
+    "background": "#fff",
+    "text_color": "#020202",
+    "bar_color": "#4CAF50",
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  },
+  "cookie": {
+    "expiration": "0"
+  },
+  "location": [
+    {
+      "logic": null,
+      "rules": [
+        {
+          "type": "schedule_yearly",
+          "operator": "==",
+          "value": "2025-06-05",
+          "logic": "OR"
+        }
+      ]
+    }
+  ]
+}

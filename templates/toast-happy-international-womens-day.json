@@ -1,0 +1,53 @@
+{
+  "id": "toast-happy-international-womens-day",
+  "name": "Happy International Women's Day Toast",
+  "description": "Add an empowering toast notification to celebrate International Women's Day and promote gender equality. Perfect for recognizing women's achievements and inspiring positive change!",
+  "license": "premium",
+  "settings": {
+    "type": "toast",
+    "message": "Happy International Women's Day! Celebrating the achievements and strength of women everywhere.",
+    "duration": 3000,
+    "text_button": "Celebrate With Us",
+    "url_button": "https://www.un.org/en/observances/womens-day",
+    "open_in_new_tab": false
+  },
+  "design": {
+    "color": "#9B4F96",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-venus"
+    },
+    "closeable": true,
+    "gravity": "top",
+    "position": "left",
+    "background": "#fff",
+    "text_color": "#020202",
+    "bar_color": "#9B4F96",
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  },
+  "cookie": {
+    "expiration": "0"
+  },
+  "location": [
+    {
+      "logic": null,
+      "rules": [
+        {
+          "type": "schedule_yearly",
+          "operator": "==",
+          "value": "2025-03-08",
+          "logic": "OR"
+        }
+      ]
+    }
+  ]
+}

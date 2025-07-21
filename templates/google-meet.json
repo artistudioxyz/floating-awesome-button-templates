@@ -1,0 +1,28 @@
+{
+  "id": "google-meet",
+  "name": "Google Meet Button",
+  "description": "Add a floating Google Meet button to your website, enabling visitors to quickly join your video meetings or start a new meeting. Perfect for virtual meetings, online classes, and remote collaboration!",
+  "license": "free",
+  "settings": {
+    "type": "link",
+    "link": "https://meet.google.com/new",
+    "open_in_new_tab": true
+  },
+  "design": {
+    "color": "#00897B",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-video"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  }
+}

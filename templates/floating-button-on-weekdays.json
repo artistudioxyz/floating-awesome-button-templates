@@ -1,0 +1,40 @@
+{
+  "id": "floating-button-on-weekdays",
+  "name": "Floating Button on Weekdays",
+  "description": "Display a floating button that appears only on weekdays. Perfect for business hours promotions, weekday specials, or work-related content!",
+  "license": "premium",
+  "settings": {
+    "type": "link",
+    "link": "#"
+  },
+  "design": {
+    "color": "#2196F3",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-calendar-week"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  },
+  "location": [
+    {
+      "logic": null,
+      "rules": [
+        {
+          "type": "schedule_day",
+          "operator": "==",
+          "value": "weekdays",
+          "logic": "OR"
+        }
+      ]
+    }
+  ]
+}

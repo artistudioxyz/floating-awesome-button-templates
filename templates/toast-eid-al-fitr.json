@@ -1,0 +1,53 @@
+{
+  "id": "toast-eid-al-fitr",
+  "name": "Eid al-Fitr Toast",
+  "description": "Add a joyful Eid al-Fitr toast notification to share holiday greetings and celebrate the end of Ramadan. Perfect for spreading Eid blessings with your website visitors!",
+  "license": "premium",
+  "settings": {
+    "type": "toast",
+    "message": "Eid Mubarak! Wishing you and your family peace, joy and prosperity on this blessed occasion.",
+    "duration": 3000,
+    "text_button": "Celebrate With Us",
+    "url_button": "#",
+    "open_in_new_tab": false
+  },
+  "design": {
+    "color": "#00A86B",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-moon"
+    },
+    "closeable": true,
+    "gravity": "top",
+    "position": "left",
+    "background": "#fff",
+    "text_color": "#020202",
+    "bar_color": "#00A86B",
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  },
+  "cookie": {
+    "expiration": "0"
+  },
+  "location": [
+    {
+      "logic": null,
+      "rules": [
+        {
+          "type": "schedule_yearly",
+          "operator": "==",
+          "value": "2024-04-10",
+          "logic": "OR"
+        }
+      ]
+    }
+  ]
+}

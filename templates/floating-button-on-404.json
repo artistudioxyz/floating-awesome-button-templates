@@ -1,0 +1,40 @@
+{
+  "id": "floating-button-on-404",
+  "name": "Floating Button on 404 Pages",
+  "description": "Display a floating button that appears only on 404 error pages. Perfect for helping lost visitors find their way back to important content or the homepage!",
+  "license": "premium",
+  "settings": {
+    "type": "link",
+    "link": "#"
+  },
+  "design": {
+    "color": "#2196F3", 
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-triangle-exclamation"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  },
+  "location": [
+    {
+      "logic": null,
+      "rules": [
+        {
+          "type": "conditional_tags_conditions",
+          "operator": "==", 
+          "value": "is_404",
+          "logic": "OR"
+        }
+      ]
+    }
+  ]
+}

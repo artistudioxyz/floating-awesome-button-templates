@@ -1,0 +1,29 @@
+{
+  "id": "slack",
+  "docs": 13073,
+  "name": "Slack Button",
+  "description": "Add a floating Slack button to your website, making it easy for visitors to join your workspace. Perfect for teams, communities and collaborative projects!",
+  "license": "free",
+  "settings": {
+    "type": "link",
+    "link": "https://slack.com/your-workspace-invite",
+    "open_in_new_tab": true
+  },
+  "design": {
+    "color": "#4A154B",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-brands fa-slack"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  }
+}

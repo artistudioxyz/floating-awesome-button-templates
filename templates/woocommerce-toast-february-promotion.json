@@ -1,0 +1,54 @@
+{
+  "id": "woocommerce-toast-february-promotion",
+  "name": "WooCommerce February Promotion Toast",
+  "description": "Add a toast notification to promote your February Valentine's sale. Perfect for WooCommerce stores looking to boost sales during the love season!",
+  "license": "premium",
+  "requires": ["woocommerce/woocommerce.php"],
+  "settings": {
+    "type": "toast",
+    "message": "Valentine's Special! Get up to 35% off on selected items. Show your love with our exclusive deals!",
+    "duration": 3000,
+    "text_button": "Shop Now",
+    "url_button": "/shop",
+    "open_in_new_tab": false
+  },
+  "design": {
+    "color": "#7f54b3",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-heart"
+    },
+    "closeable": true,
+    "gravity": "top",
+    "position": "left",
+    "background": "#fff",
+    "text_color": "#020202",
+    "bar_color": "#7f54b3",
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  },
+  "cookie": {
+    "expiration": "0"
+  },
+  "location": [
+    {
+      "logic": null,
+      "rules": [
+        {
+          "type": "schedule_month",
+          "operator": "==",
+          "value": "2",
+          "logic": "AND"
+        }
+      ]
+    }
+  ]
+}

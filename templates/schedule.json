@@ -1,0 +1,28 @@
+{
+  "id": "schedule",
+  "name": "Schedule Button",
+  "description": "Add a floating schedule button to your website, making it easy for visitors to book appointments or schedule meetings. Perfect for service providers, consultants, and businesses!",
+  "license": "free",
+  "settings": {
+    "type": "link",
+    "link": "https://your-scheduling-site.com/book",
+    "open_in_new_tab": true
+  },
+  "design": {
+    "color": "#3498DB",
+    "grouped": true,
+    "icon": {
+      "color": "#fff", 
+      "class": "fa-solid fa-calendar"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  }
+}

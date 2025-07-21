@@ -1,0 +1,53 @@
+{
+  "id": "toast-international-day-clean-energy",
+  "name": "International Day of Clean Energy Toast",
+  "description": "Add a toast notification to celebrate International Day of Clean Energy and promote awareness about renewable energy sources. Perfect for organizations promoting sustainability and clean energy initiatives!",
+  "license": "premium",
+  "settings": {
+    "type": "toast",
+    "message": "Today is International Day of Clean Energy! Together, let's build a sustainable future with renewable energy.",
+    "duration": 3000,
+    "text_button": "Learn More",
+    "url_button": "https://www.un.org/en/observances/clean-energy-day",
+    "open_in_new_tab": false
+  },
+  "design": {
+    "color": "#00BCD4",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-solar-panel"
+    },
+    "closeable": true,
+    "gravity": "top",
+    "position": "left",
+    "background": "#fff",
+    "text_color": "#020202",
+    "bar_color": "#00BCD4",
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  },
+  "cookie": {
+    "expiration": "0"
+  },
+  "location": [
+    {
+      "logic": null,
+      "rules": [
+        {
+          "type": "schedule_yearly",
+          "operator": "==",
+          "value": "2025-01-26",
+          "logic": "OR"
+        }
+      ]
+    }
+  ]
+}

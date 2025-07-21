@@ -1,0 +1,27 @@
+{
+  "id": "floating-button-on-mobile",
+  "name": "Floating Button on Mobile",
+  "description": "Add a customizable floating button that only appears on mobile devices. Perfect for mobile-specific calls-to-action and improved mobile user experience!",
+  "license": "premium",
+  "settings": {
+    "type": "link",
+    "link": "#"
+  },
+  "design": {
+    "color": "#2196F3",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-mobile"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 0,
+        "desktop": 0
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  }
+}

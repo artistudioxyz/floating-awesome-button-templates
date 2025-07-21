@@ -1,0 +1,29 @@
+{
+  "id": "figma",
+  "docs": 12831,
+  "name": "Figma Button",
+  "description": "Add a floating Figma button to your website, enabling visitors to quickly access your Figma designs and prototypes. Perfect for showcasing your design work and collaborating with clients!",
+  "license": "free",
+  "settings": {
+    "type": "link",
+    "link": "https://figma.com/file/your-design-link",
+    "open_in_new_tab": true
+  },
+  "design": {
+    "color": "#1E1E1E",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-brands fa-figma"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  }
+}

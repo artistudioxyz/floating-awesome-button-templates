@@ -1,0 +1,65 @@
+{
+  "id": "popup-ad-block",
+  "name": "Popup Ad Block",
+  "description": "Display a friendly message to users with ad blockers enabled, explaining how ads support your site and requesting them to whitelist it.",
+  "license": "premium",
+  "settings": {
+    "type": "modal",
+    "content": "We rely on advertising revenue to keep our content free. Please consider supporting us by disabling your ad blocker for this site."
+  },
+  "design": {
+    "color": "#FF5722",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-shield"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 0,
+        "tablet": 0,
+        "desktop": 0
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  },
+  "modal": {
+    "layout": {
+      "id": "stacked",
+      "background": {
+        "color": "#fff"
+      },
+      "overlay": {
+        "color": "#f9f9f9",
+        "opacity": 0.8
+      },
+      "content": {
+        "padding": {
+          "top": "1",
+          "right": "1",
+          "bottom": "1",
+          "left": "1",
+          "sizing": "rem"
+        },
+        "margin": {
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "sizing": "rem"
+        }
+      }
+    },
+    "navigation": {
+      "iconCover": true
+    }
+  },
+  "trigger": {
+    "type": "adblock",
+    "delay": "500ms"
+  },
+  "cookie": {
+    "expiration": "0"
+  }
+}

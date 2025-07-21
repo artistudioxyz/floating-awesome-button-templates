@@ -1,0 +1,74 @@
+{
+  "id": "woocommerce-popup-for-backordered-product",
+  "name": "WooCommerce Popup for Backordered Products",
+  "description": "Display a popup for WooCommerce products that are on backorder. Perfect for setting delivery expectations and keeping customers informed!",
+  "license": "free",
+  "settings": {
+    "type": "modal",
+    "content": "⏳ BACKORDER NOTICE: This popular item is temporarily out of stock but available for backorder. Place your order now to secure your item - we'll ship it as soon as new stock arrives! Expected delivery time: 2-3 weeks. Thank you for your patience! 📦"
+  },
+  "design": {
+    "color": "#7f54b3",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-truck-loading"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  },
+  "modal": {
+    "layout": {
+      "id": "stacked",
+      "background": {
+        "color": "#fff"
+      },
+      "overlay": {
+        "color": "#f9f9f9",
+        "opacity": 0.8
+      },
+      "content": {
+        "padding": {
+          "top": "1",
+          "right": "1",
+          "bottom": "1",
+          "left": "1",
+          "sizing": "rem"
+        },
+        "margin": {
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "sizing": "rem"
+        }
+      }
+    },
+    "navigation": {
+      "iconCover": true
+    }
+  },
+  "location": [
+    {
+      "logic": null,
+      "rules": [
+        {
+          "type": "fields_custom_postmeta",
+          "operator": "==",
+          "value": {
+            "meta_key": "_stock_status",
+            "meta_value": "onbackorder"
+          },
+          "logic": "OR"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "portfolio",
+  "docs": 12797,
+  "name": "Portfolio Button",
+  "description": "Add a floating portfolio button to your website, making it easy for visitors to view your work samples and creative projects. Perfect for freelancers, designers and creative professionals!",
+  "license": "free",
+  "settings": {
+    "type": "link",
+    "link": "https://your-portfolio-link.com",
+    "open_in_new_tab": true
+  },
+  "design": {
+    "color": "#9C27B0",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-images"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "google-map",
+  "name": "Google Map Button",
+  "description": "Add a floating Google Map button to your website, making it easy for visitors to find your location. Perfect for businesses with physical locations wanting to improve accessibility!",
+  "license": "free",
+  "settings": {
+    "type": "link",
+    "link": "https://maps.google.com/?q=your-location",
+    "open_in_new_tab": true
+  },
+  "design": {
+    "color": "#EA4335",
+    "grouped": true,
+    "icon": {
+      "color": "#fff", 
+      "class": "fa-solid fa-location-dot"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  }
+}

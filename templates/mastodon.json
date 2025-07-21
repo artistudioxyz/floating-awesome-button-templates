@@ -1,0 +1,28 @@
+{
+  "id": "mastodon",
+  "name": "Mastodon Button",
+  "description": "Add a floating Mastodon button to your website, enabling visitors to follow and connect with you on Mastodon. Perfect for growing your decentralized social media presence!",
+  "license": "free",
+  "settings": {
+    "type": "link",
+    "link": "https://mastodon.social/@yourusername",
+    "open_in_new_tab": true
+  },
+  "design": {
+    "color": "#6364FF",
+    "grouped": true,
+    "icon": {
+      "color": "#fff", 
+      "class": "fa-brands fa-mastodon"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  }
+}

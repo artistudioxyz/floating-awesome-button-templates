@@ -1,0 +1,53 @@
+{
+  "id": "toast-annual-event",
+  "name": "Annual Event Toast",
+  "description": "Add a toast notification to promote your annual recurring event. Perfect for reminding visitors about your yearly events and special occasions!",
+  "license": "premium",
+  "settings": {
+    "type": "toast",
+    "message": "Join us for our annual event! Don't miss out on this special occasion.",
+    "duration": 3000,
+    "text_button": "Learn More",
+    "url_button": "#",
+    "open_in_new_tab": false
+  },
+  "design": {
+    "color": "#2ECC71",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-calendar-check"
+    },
+    "closeable": true,
+    "gravity": "top",
+    "position": "left",
+    "background": "#fff",
+    "text_color": "#020202",
+    "bar_color": "#2ECC71",
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  },
+  "cookie": {
+    "expiration": "0"
+  },
+  "location": [
+    {
+      "logic": null,
+      "rules": [
+        {
+          "type": "schedule_yearly",
+          "operator": "==",
+          "value": "2024-02-01",
+          "logic": "OR"
+        }
+      ]
+    }
+  ]
+}

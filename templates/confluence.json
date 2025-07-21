@@ -1,0 +1,29 @@
+{
+  "id": "confluence",
+  "name": "Confluence Button",
+  "docs": 12698,
+  "description": "Add a floating Confluence button to your website, allowing visitors to quickly access your Confluence workspace. Perfect for team collaboration and documentation sharing!",
+  "license": "free",
+  "settings": {
+    "type": "link",
+    "link": "https://your-workspace.atlassian.net/wiki",
+    "open_in_new_tab": true
+  },
+  "design": {
+    "color": "#0052CC",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-brands fa-confluence"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  }
+}

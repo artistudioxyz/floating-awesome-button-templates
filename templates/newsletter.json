@@ -1,0 +1,28 @@
+{
+  "id": "newsletter",
+  "name": "Newsletter Button",
+  "description": "Add a floating newsletter subscription button to your website, making it easy for visitors to sign up for your mailing list. Perfect for growing your email subscribers!",
+  "license": "free",
+  "settings": {
+    "type": "link", 
+    "link": "https://your-site-newsletter.com",
+    "open_in_new_tab": false
+  },
+  "design": {
+    "color": "#FF5722",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-envelope"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  }
+}

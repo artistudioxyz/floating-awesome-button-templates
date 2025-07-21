@@ -1,0 +1,40 @@
+{
+  "id": "toast-on-desktop",
+  "name": "Toast on Desktop",
+  "description": "Add a toast notification that only appears for desktop visitors. Perfect for desktop-specific announcements, promotions, or any content you want to show as a toast on desktop devices!",
+  "license": "premium",
+  "settings": {
+    "type": "toast",
+    "message": "Your desktop-specific message here",
+    "duration": 3000,
+    "text_button": "Learn More",
+    "url_button": "#",
+    "open_in_new_tab": false
+  },
+  "design": {
+    "color": "#4CAF50",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-desktop"
+    },
+    "closeable": true,
+    "gravity": "top",
+    "position": "left",
+    "background": "#fff",
+    "text_color": "#020202",
+    "bar_color": "#4CAF50",
+    "responsive": {
+      "device": {
+        "mobile": 0,
+        "tablet": 0,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  },
+  "cookie": {
+    "expiration": "7"
+  }
+}

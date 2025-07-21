@@ -1,0 +1,54 @@
+{
+  "id": "woocommerce-toast-coupon-cart-weight-promotion",
+  "name": "WooCommerce Cart Weight Coupon Toast",
+  "description": "Add a toast notification to encourage customers to reach cart weight thresholds by offering special discounts. Perfect for promoting bulk purchases!",
+  "license": "premium",
+  "requires": ["woocommerce/woocommerce.php"],
+  "settings": {
+    "type": "toast",
+    "message": "Add more items! Reach 10kg cart weight and get 10% off",
+    "duration": 3000,
+    "text_button": "Shop More",
+    "url_button": "/shop",
+    "open_in_new_tab": false
+  },
+  "design": {
+    "color": "#7f54b3",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-weight-scale"
+    },
+    "closeable": true,
+    "gravity": "top",
+    "position": "left",
+    "background": "#fff",
+    "text_color": "#020202",
+    "bar_color": "#7f54b3",
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  },
+  "cookie": {
+    "expiration": "0"
+  },
+  "location": [
+    {
+      "logic": null,
+      "rules": [
+        {
+          "type": "wc_cart_weight",
+          "operator": "<",
+          "value": "10",
+          "logic": "AND"
+        }
+      ]
+    }
+  ]
+}

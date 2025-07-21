@@ -1,0 +1,26 @@
+{
+  "id": "single-post",
+  "name": "Single Post Button", 
+  "description": "Add a floating button to link to a specific post or article on your website. Perfect for highlighting important content or directing visitors to featured articles!",
+  "license": "free",
+  "settings": {
+    "type": "single_post"
+  },
+  "design": {
+    "color": "#FF5722",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-newspaper"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  }
+}

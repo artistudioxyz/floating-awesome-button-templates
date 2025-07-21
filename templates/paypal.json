@@ -1,0 +1,29 @@
+{
+  "id": "paypal",
+  "docs": 12772,
+  "name": "PayPal Button",
+  "description": "Add a floating PayPal button to your website, making it easy for visitors to make payments or donations. Perfect for e-commerce sites and fundraising campaigns!",
+  "license": "free",
+  "settings": {
+    "type": "link",
+    "link": "https://paypal.me/your-username",
+    "open_in_new_tab": true
+  },
+  "design": {
+    "color": "#003087",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-brands fa-paypal"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "woocommerce-apply-coupon-number-of-customer-orders",
+  "name": "WooCommerce Apply Coupon by Number of Customer Orders",
+  "description": "Add a floating coupon button that appears when customers reach a specific number of orders. Perfect for rewarding repeat customers with special discounts!",
+  "license": "premium",
+  "requires": ["woocommerce/woocommerce.php"],
+  "settings": {
+    "type": "apply_coupon"
+  },
+  "design": {
+    "color": "#7f54b3",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-gift"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  },
+  "location": [
+    {
+      "logic": null,
+      "rules": [
+        {
+          "type": "wc_number_of_customer_orders",
+          "operator": ">",
+          "value": "5",
+          "logic": "OR"
+        }
+      ]
+    }
+  ]
+}

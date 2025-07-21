@@ -1,0 +1,53 @@
+{
+  "id": "toast-world-aids-day",
+  "name": "World AIDS Day Toast",
+  "description": "Add an awareness toast notification to commemorate World AIDS Day and promote HIV/AIDS awareness and support. Perfect for healthcare organizations and advocacy groups!",
+  "license": "premium",
+  "settings": {
+    "type": "toast",
+    "message": "Today is World AIDS Day. Let's raise awareness and show support for people living with HIV/AIDS.",
+    "duration": 3000,
+    "text_button": "Learn More",
+    "url_button": "https://www.un.org/en/observances/world-aids-day",
+    "open_in_new_tab": false
+  },
+  "design": {
+    "color": "#E91E63",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-ribbon"
+    },
+    "closeable": true,
+    "gravity": "top",
+    "position": "left",
+    "background": "#fff",
+    "text_color": "#020202",
+    "bar_color": "#E91E63",
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  },
+  "cookie": {
+    "expiration": "0"
+  },
+  "location": [
+    {
+      "logic": null,
+      "rules": [
+        {
+          "type": "schedule_yearly",
+          "operator": "==",
+          "value": "2025-12-01",
+          "logic": "OR"
+        }
+      ]
+    }
+  ]
+}

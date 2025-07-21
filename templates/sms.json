@@ -1,0 +1,28 @@
+{
+  "id": "sms",
+  "name": "SMS Button",
+  "description": "Add a floating SMS button to your website, making it easy for visitors to send you text messages directly. Perfect for quick customer communication and support!",
+  "license": "free",
+  "settings": {
+    "type": "link",
+    "link": "sms:+1234567890",
+    "open_in_new_tab": true
+  },
+  "design": {
+    "color": "#25D366",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-comment-sms"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  }
+}

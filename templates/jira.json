@@ -1,0 +1,29 @@
+{
+  "id": "jira",
+  "docs": 12854,
+  "name": "Jira Button",
+  "description": "Add a floating Jira button to your website, making it easy for visitors to access your project management workspace. Perfect for development teams and project tracking!",
+  "license": "free",
+  "settings": {
+    "type": "link",
+    "link": "https://your-domain.atlassian.net/jira",
+    "open_in_new_tab": true
+  },
+  "design": {
+    "color": "#0052CC",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-brands fa-jira"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  }
+}

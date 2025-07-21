@@ -1,0 +1,59 @@
+{
+  "id": "toast-happy-holiday",
+  "name": "Happy Holiday Toast",
+  "description": "Add a festive holiday toast notification to spread seasonal cheer and warm wishes. Perfect for sharing holiday greetings with your website visitors during the festive season!",
+  "license": "premium",
+  "settings": {
+    "type": "toast",
+    "message": "Happy Holidays! Wishing you peace, joy and wonderful celebrations with your loved ones.",
+    "duration": 3000,
+    "text_button": "Celebrate With Us",
+    "url_button": "#",
+    "open_in_new_tab": false
+  },
+  "design": {
+    "color": "#FF0000",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-gifts"
+    },
+    "closeable": true,
+    "gravity": "top",
+    "position": "left",
+    "background": "#fff",
+    "text_color": "#020202",
+    "bar_color": "#FF0000",
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  },
+  "cookie": {
+    "expiration": "0"
+  },
+  "location": [
+    {
+      "logic": null,
+      "rules": [
+        {
+          "type": "schedule_yearly",
+          "operator": ">=",
+          "value": "2024-12-20",
+          "logic": "AND"
+        },
+        {
+          "type": "schedule_yearly",
+          "operator": "<=",
+          "value": "2025-01-05",
+          "logic": "OR"
+        }
+      ]
+    }
+  ]
+}

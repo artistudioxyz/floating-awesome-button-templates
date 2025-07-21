@@ -1,0 +1,28 @@
+{
+  "id": "telegram",
+  "name": "Telegram Button",
+  "description": "Add a floating Telegram button to your website, allowing visitors to instantly message you on Telegram. Great for quick communication and customer support!",
+  "license": "free",
+  "settings": {
+    "type": "link",
+    "link": "https://t.me/yourusername",
+    "open_in_new_tab": true
+  },
+  "design": {
+    "color": "#0088cc", 
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-brands fa-telegram"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  }
+}

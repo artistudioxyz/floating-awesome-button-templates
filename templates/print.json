@@ -1,0 +1,27 @@
+{
+  "id": "print",
+  "name": "Print Button",
+  "description": "Add a floating print button to your website, enabling visitors to easily print the current page with a single click. Perfect for articles, recipes, and printable content!",
+  "license": "free",
+  "settings": {
+    "type": "print",
+    "target": "body"
+  },
+  "design": {
+    "color": "#666666",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-print"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  }
+}

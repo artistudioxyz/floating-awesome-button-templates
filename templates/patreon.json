@@ -1,0 +1,28 @@
+{
+  "id": "patreon",
+  "name": "Patreon Button",
+  "description": "Add a floating Patreon button to your website, making it easy for visitors to become your patrons and support your work. Perfect for creators, artists and content producers!",
+  "license": "free",
+  "settings": {
+    "type": "link",
+    "link": "https://www.patreon.com/your-username",
+    "open_in_new_tab": true
+  },
+  "design": {
+    "color": "#FF424D",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-brands fa-patreon"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  }
+}

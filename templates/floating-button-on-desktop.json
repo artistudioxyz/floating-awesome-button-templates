@@ -1,0 +1,27 @@
+{
+  "id": "floating-button-on-desktop",
+  "name": "Floating Button on Desktop",
+  "description": "Add a customizable floating button that only appears on desktop devices. Perfect for desktop-specific calls-to-action and improved desktop user experience!",
+  "license": "premium",
+  "settings": {
+    "type": "link",
+    "link": "#"
+  },
+  "design": {
+    "color": "#2196F3",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-desktop"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 0,
+        "tablet": 0,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  }
+}

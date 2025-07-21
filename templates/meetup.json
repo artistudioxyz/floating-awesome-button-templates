@@ -1,0 +1,28 @@
+{
+  "id": "meetup",
+  "name": "Meetup Button",
+  "description": "Add a floating Meetup button to your website, enabling visitors to quickly join your Meetup groups and events. Perfect for community organizers and event hosts!",
+  "license": "free",
+  "settings": {
+    "type": "link",
+    "link": "https://meetup.com/your-group",
+    "open_in_new_tab": true
+  },
+  "design": {
+    "color": "#F64060",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-brands fa-meetup"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  }
+}

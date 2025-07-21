@@ -1,0 +1,57 @@
+{
+  "id": "wpforms-popup",
+  "name": "WPForms Popup",
+  "docs": 12261,
+  "description": "Add a popup window to your website that can display WPForms forms. Perfect for contact forms, feedback forms, or any form-based interactions!",
+  "license": "free",
+  "requires": ["wpforms-lite/wpforms.php"],
+  "settings": {
+    "type": "modal",
+    "content": "[wpforms id=\"1234567890\"]"
+  },
+  "design": {
+    "color": "#2196f3",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fab fa-wpforms"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  },
+  "modal": {
+    "layout": {
+      "id": "stacked",
+      "background": {
+        "color": "#fff"
+      },
+      "overlay": {
+        "color": "#f9f9f9",
+        "opacity": 0.8
+      },
+      "content": {
+        "padding": {
+          "top": "1",
+          "right": "1",
+          "bottom": "1",
+          "left": "1",
+          "sizing": "rem"
+        },
+        "margin": {
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "sizing": "rem"
+        }
+      }
+    }
+  }
+}

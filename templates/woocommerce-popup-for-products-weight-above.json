@@ -1,0 +1,74 @@
+{
+  "id": "woocommerce-popup-for-products-weight-above",
+  "name": "WooCommerce Popup for Products Weight Above {weight}",
+  "description": "Display a popup for WooCommerce products with weight above a specified threshold. Perfect for highlighting shipping requirements and handling instructions for heavy items!",
+  "license": "free",
+  "settings": {
+    "type": "modal",
+    "content": "⚠️ HEAVY ITEM NOTICE: This product exceeds our standard weight threshold. Please note special shipping and handling requirements may apply. Contact us for delivery options and assistance with your order! 📦"
+  },
+  "design": {
+    "color": "#7f54b3",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-weight-hanging"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  },
+  "modal": {
+    "layout": {
+      "id": "stacked",
+      "background": {
+        "color": "#fff"
+      },
+      "overlay": {
+        "color": "#f9f9f9",
+        "opacity": 0.8
+      },
+      "content": {
+        "padding": {
+          "top": "1",
+          "right": "1",
+          "bottom": "1",
+          "left": "1",
+          "sizing": "rem"
+        },
+        "margin": {
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "sizing": "rem"
+        }
+      }
+    },
+    "navigation": {
+      "iconCover": true
+    }
+  },
+  "location": [
+    {
+      "logic": null,
+      "rules": [
+        {
+          "type": "fields_custom_postmeta",
+          "operator": ">",
+          "value": {
+            "meta_key": "_weight",
+            "meta_value": "50"
+          },
+          "logic": "OR"
+        }
+      ]
+    }
+  ]
+}

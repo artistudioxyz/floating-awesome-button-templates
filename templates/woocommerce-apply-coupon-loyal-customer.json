@@ -1,0 +1,46 @@
+{
+  "id": "woocommerce-apply-coupon-loyal-customer",
+  "name": "WooCommerce Apply Coupon for Loyal Customers",
+  "description": "Add a floating coupon button that appears for loyal customers who have made between 5-10 purchases. Perfect for rewarding mid-tier loyal customers with special discounts!",
+  "license": "premium",
+  "requires": ["woocommerce/woocommerce.php"],
+  "settings": {
+    "type": "apply_coupon"
+  },
+  "design": {
+    "color": "#7f54b3",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-gift"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "rounded",
+    "standalone": true
+  },
+  "location": [
+    {
+      "logic": null,
+      "rules": [
+        {
+          "type": "wc_number_of_customer_orders",
+          "operator": ">=",
+          "value": "5",
+          "logic": "AND"
+        },
+        {
+          "type": "wc_number_of_customer_orders",
+          "operator": "<=",
+          "value": "10",
+          "logic": "AND"
+        }
+      ]
+    }
+  ]
+}

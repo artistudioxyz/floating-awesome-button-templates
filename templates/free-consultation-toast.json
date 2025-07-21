@@ -1,0 +1,37 @@
+{
+  "id": "free-consultation-toast",
+  "name": "Free Consultation Toast",
+  "description": "Add a consultation booking toast notification to offer free consultations to website visitors. Perfect for service providers and consultants looking to connect with potential clients!",
+  "license": "free",
+  "settings": {
+    "type": "toast",
+    "message": "Book your free consultation session with our experts!",
+    "duration": 3000,
+    "text_button": "Book Now",
+    "url_button": "#",
+    "open_in_new_tab": true
+  },
+  "design": {
+    "color": "#3F51B5",
+    "icon": {
+        "color": "#fff",
+        "class": "fa-solid fa-calendar-check"
+    },
+    "closeable": true,
+    "gravity": "top",
+    "position": "left",
+    "background": "#fff",
+    "text_color": "#020202",
+    "bar_color": "#3F51B5",
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    }
+  },
+  "cookie": {
+    "expiration": "7"
+  }
+}

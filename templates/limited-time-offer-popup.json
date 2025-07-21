@@ -1,0 +1,43 @@
+{
+  "id": "limited-time-offer-popup",
+  "name": "Limited Time Offer Popup",
+  "description": "Display a popup for a limited-time offer with an integrated countdown timer. Great for flash sales, discounts, or exclusive deals that expire in 3 days.",
+  "license": "premium",
+  "settings": {
+    "type": "modal",
+    "content": "<div class=\"text-center p-4\">\n  <h2 class=\"text-xl font-bold mb-2\">⏳ Limited Time Offer!</h2>\n  <p class=\"text-base mb-4\">Get 30% OFF your order – only valid for the next 3 days. Don't miss out!</p>\n</div>"
+  },
+  "design": {
+    "color": "#E91E63",
+    "grouped": false,
+    "icon": {
+      "color": "#ffffff",
+      "class": "fa-solid fa-clock"
+    },
+    "tooltip": {
+      "countdown_timer": true
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "rounded",
+    "standalone": true
+  },
+  "location": [
+    {
+      "logic": null,
+      "rules": [
+        {
+          "type": "schedule_date",
+          "operator": "<",
+          "value": "3days",
+          "logic": "OR"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "phone",
+  "name": "Phone Button", 
+  "description": "Add a floating phone button to your website, enabling visitors to instantly call you with a single click. Perfect for customer support and direct communication!",
+  "license": "free",
+  "settings": {
+    "type": "link",
+    "link": "tel:+1234567890",
+    "open_in_new_tab": true
+  },
+  "design": {
+    "color": "#25D366",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-phone"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  }
+}

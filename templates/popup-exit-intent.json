@@ -1,0 +1,65 @@
+{
+  "id": "popup-exit-intent",
+  "name": "Popup Exit Intent",
+  "description": "Display a popup when visitors are about to leave your site. Perfect for last-minute offers, newsletter signups, or important messages to reduce bounce rates.",
+  "license": "premium",
+  "settings": {
+    "type": "modal",
+    "content": "Wait! Before you go, would you like to subscribe to our newsletter for exclusive updates and special offers?"
+  },
+  "design": {
+    "color": "#2196F3",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-door-open"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 0,
+        "tablet": 0,
+        "desktop": 0
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  },
+  "modal": {
+    "layout": {
+      "id": "stacked",
+      "background": {
+        "color": "#fff"
+      },
+      "overlay": {
+        "color": "#f9f9f9",
+        "opacity": 0.8
+      },
+      "content": {
+        "padding": {
+          "top": "1",
+          "right": "1",
+          "bottom": "1",
+          "left": "1",
+          "sizing": "rem"
+        },
+        "margin": {
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "sizing": "rem"
+        }
+      }
+    },
+    "navigation": {
+      "iconCover": true
+    }
+  },
+  "trigger": {
+    "type": "exit_intent",
+    "delay": "0ms"
+  },
+  "cookie": {
+    "expiration": "0"
+  }
+}

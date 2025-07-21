@@ -1,0 +1,28 @@
+{
+  "id": "facebook-messenger",
+  "name": "Facebook Messenger Button",
+  "description": "Add a floating Facebook Messenger button to your website, enabling visitors to instantly connect with you via Messenger. Perfect for customer support and direct communication!",
+  "license": "free",
+  "settings": {
+    "type": "link",
+    "link": "https://m.me/your-page-username",
+    "open_in_new_tab": true
+  },
+  "design": {
+    "color": "#0A7CFF",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-brands fa-facebook-messenger"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "expired-post",
+  "name": "Expired {post_date} Notice",
+  "description": "Add a floating notice to inform readers about potentially outdated content. Perfect for maintaining transparency about post publication dates!",
+  "license": "premium",
+  "settings": {
+    "type": "single_post"
+  },
+  "design": {
+    "color": "#FFA726",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-clock"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  },
+  "location": [
+    {
+      "logic": null,
+      "rules": [
+        {
+          "type": "post_type",
+          "operator": "==",
+          "value": "post",
+          "logic": "OR"
+        }
+      ]
+    }
+  ]
+}

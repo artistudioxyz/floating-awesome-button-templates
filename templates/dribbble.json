@@ -1,0 +1,29 @@
+{
+  "id": "dribbble",
+  "docs": 12843,
+  "name": "Dribbble Button",
+  "description": "Add a floating Dribbble button to your website, making it easy for visitors to access your design portfolio and creative work. Perfect for designers and creative professionals!",
+  "license": "free",
+  "settings": {
+    "type": "link",
+    "link": "https://dribbble.com/your-profile",
+    "open_in_new_tab": true
+  },
+  "design": {
+    "color": "#EA4C89",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-brands fa-dribbble"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "whatsapp-consulting",
+  "docs": 12285,
+  "name": "WhatsApp Consulting",
+  "description": "Add a WhatsApp button that connects clients directly to your consulting services. Perfect for consultants, advisors, and professional service providers looking to offer personalized consultation and expert guidance through WhatsApp!",
+  "license": "free",
+  "settings": {
+    "type": "link",
+    "link": "https://api.whatsapp.com/send?phone=+112345678910",
+    "content": "👋 Welcome to [Your Consulting Firm] 💡\n\nThank you for your interest in our consulting services!\n\n🌟 OUR EXPERTISE:\n\n📊 Business Strategy\n• Market Analysis\n• Growth Planning\n• Process Optimization\n\n💼 Management Consulting\n• Organizational Development\n• Change Management\n• Leadership Training\n\n📈 Financial Advisory\n• Investment Planning\n• Risk Management\n• Financial Modeling\n\n✨ WHY CHOOSE US?\n✅ Industry Experts - Years of proven experience\n✅ Tailored Solutions - Customized to your needs\n✅ Results-Driven - Measurable outcomes\n✅ Ongoing Support - We're here for you\n\n📍 CONTACT INFORMATION:\n📞 WhatsApp: [Your Number]\n🌐 Website: [Your Website]\n📧 Email: [Your Email]\n📍 Office: [Your Address]\n\n🎯 CONSULTATION PROCESS:\n1. Initial Discussion\n2. Needs Assessment\n3. Strategy Development\n4. Implementation Support\n\n💫 SPECIAL OFFERS:\n• Free 30-min Strategy Session\n• Monthly Retainer Packages\n• Project-based Consulting\n\nReady to transform your business? Let's talk! 🚀",
+    "open_in_new_tab": true
+  },
+  "design": {
+    "color": "#25D366",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-brands fa-whatsapp"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "facebook",
+  "name": "Facebook Button",
+  "description": "Add a floating Facebook button to your website, enabling visitors to quickly connect with your Facebook page or profile. Perfect for social media engagement and community building!",
+  "license": "free",
+  "settings": {
+    "type": "link",
+    "link": "https://facebook.com/yourusername",
+    "open_in_new_tab": true
+  },
+  "design": {
+    "color": "#1877F2",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-brands fa-facebook"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "woocommerce-popup-recently-viewed-products",
+  "name": "WooCommerce Recently Viewed Products Popup",
+  "description": "Display a floating button that shows a popup with recently viewed WooCommerce products. Perfect for helping customers quickly access products they've previously viewed!",
+  "license": "premium",
+  "requires": ["woocommerce/woocommerce.php"],
+  "settings": {
+    "type": "recently_viewed_product"
+  },
+  "design": {
+    "color": "#7f54b3",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-clock-rotate-left"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  }
+}

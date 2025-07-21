@@ -1,0 +1,28 @@
+{
+  "id": "twitter",
+  "name": "Twitter Button",
+  "description": "Add a floating Twitter button to your website, enabling visitors to quickly follow your Twitter profile or share your content. Perfect for social media engagement and real-time updates!",
+  "license": "free",
+  "settings": {
+    "type": "link",
+    "link": "https://twitter.com/yourusername",
+    "open_in_new_tab": true
+  },
+  "design": {
+    "color": "#1DA1F2",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-brands fa-twitter"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  }
+}

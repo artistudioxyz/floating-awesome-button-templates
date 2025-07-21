@@ -1,0 +1,53 @@
+{
+  "id": "toast-happy-new-year",
+  "name": "Happy New Year Toast",
+  "description": "Add a festive New Year's toast notification to welcome visitors and share holiday greetings. Perfect for celebrating the new year with your website visitors!",
+  "license": "premium",
+  "settings": {
+    "type": "toast",
+    "message": "Happy New Year! Wishing you joy and success in the year ahead.",
+    "duration": 3000,
+    "text_button": "Celebrate With Us",
+    "url_button": "#",
+    "open_in_new_tab": false
+  },
+  "design": {
+    "color": "#FFD700",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-champagne-glasses"
+    },
+    "closeable": true,
+    "gravity": "top",
+    "position": "left",
+    "background": "#fff",
+    "text_color": "#020202",
+    "bar_color": "#FFD700",
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  },
+  "cookie": {
+    "expiration": "0"
+  },
+  "location": [
+    {
+      "logic": null,
+      "rules": [
+        {
+          "type": "schedule_yearly",
+          "operator": "==",
+          "value": "2025-01-01",
+          "logic": "OR"
+        }
+      ]
+    }
+  ]
+}

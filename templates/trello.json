@@ -1,0 +1,28 @@
+{
+  "id": "trello",
+  "name": "Trello Button",
+  "description": "Add a floating Trello button to your website, making it easy for visitors to access your boards and collaborate on projects. Perfect for project management and team coordination!",
+  "license": "free",
+  "settings": {
+    "type": "link",
+    "link": "https://trello.com/b/your-board-id",
+    "open_in_new_tab": true
+  },
+  "design": {
+    "color": "#0079BF",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-brands fa-trello"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  }
+}

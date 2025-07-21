@@ -1,0 +1,27 @@
+{
+  "id": "floating-button",
+  "name": "Floating Button",
+  "description": "Add a customizable floating button to your website that can link to any URL. Perfect for calls-to-action, special offers, or directing visitors to important pages!",
+  "license": "free",
+  "settings": {
+    "type": "link",
+    "link": "#"
+  },
+  "design": {
+    "color": "#2196F3",
+    "grouped": true,
+    "icon": {
+      "color": "#fff", 
+      "class": "fa-solid fa-circle"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  }
+}

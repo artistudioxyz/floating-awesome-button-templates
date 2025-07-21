@@ -1,0 +1,53 @@
+{
+  "id": "toast-grant-application",
+  "name": "Grant Application Toast",
+  "description": "Add a toast notification to inform visitors about grant application periods. Perfect for organizations and institutions offering grants and funding opportunities!",
+  "license": "premium",
+  "settings": {
+    "type": "toast",
+    "message": "Grant applications are now open! Submit your proposal before the deadline.",
+    "duration": 3000,
+    "text_button": "Apply Now",
+    "url_button": "#",
+    "open_in_new_tab": false
+  },
+  "design": {
+    "color": "#27AE60",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-file-contract"
+    },
+    "closeable": true,
+    "gravity": "top",
+    "position": "left",
+    "background": "#fff",
+    "text_color": "#020202",
+    "bar_color": "#27AE60",
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  },
+  "cookie": {
+    "expiration": "0"
+  },
+  "location": [
+    {
+      "logic": null,
+      "rules": [
+        {
+          "type": "schedule_yearly",
+          "operator": "==",
+          "value": "2024-03-01",
+          "logic": "OR"
+        }
+      ]
+    }
+  ]
+}

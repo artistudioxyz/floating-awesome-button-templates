@@ -1,0 +1,53 @@
+{
+  "id": "toast-international-day-peace",
+  "name": "International Day of Peace Toast",
+  "description": "Add a peace toast notification to celebrate International Day of Peace and promote harmony and understanding. Perfect for organizations committed to peace and conflict resolution!",
+  "license": "premium",
+  "settings": {
+    "type": "toast",
+    "message": "Today is International Day of Peace. Let's work together to build a more peaceful and harmonious world.",
+    "duration": 3000,
+    "text_button": "Learn More",
+    "url_button": "https://www.un.org/en/observances/international-day-peace",
+    "open_in_new_tab": false
+  },
+  "design": {
+    "color": "#00BCD4",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-dove"
+    },
+    "closeable": true,
+    "gravity": "top",
+    "position": "left",
+    "background": "#fff",
+    "text_color": "#020202",
+    "bar_color": "#00BCD4",
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  },
+  "cookie": {
+    "expiration": "0"
+  },
+  "location": [
+    {
+      "logic": null,
+      "rules": [
+        {
+          "type": "schedule_yearly",
+          "operator": "==",
+          "value": "2025-09-21",
+          "logic": "OR"
+        }
+      ]
+    }
+  ]
+}

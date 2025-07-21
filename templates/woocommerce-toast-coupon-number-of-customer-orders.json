@@ -1,0 +1,54 @@
+{
+  "id": "woocommerce-toast-coupon-number-of-customer-orders",
+  "name": "WooCommerce Customer Orders Count Toast",
+  "description": "Add a toast notification to encourage repeat purchases by offering special discounts based on customer's order history. Perfect for building customer loyalty!",
+  "license": "premium",
+  "requires": ["woocommerce/woocommerce.php"],
+  "settings": {
+    "type": "toast",
+    "message": "Thanks for being a customer! Place your 5th order and get 15% off",
+    "duration": 3000,
+    "text_button": "Shop Now",
+    "url_button": "/shop",
+    "open_in_new_tab": false
+  },
+  "design": {
+    "color": "#7f54b3",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-award"
+    },
+    "closeable": true,
+    "gravity": "top",
+    "position": "left",
+    "background": "#fff",
+    "text_color": "#020202",
+    "bar_color": "#7f54b3",
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  },
+  "cookie": {
+    "expiration": "0"
+  },
+  "location": [
+    {
+      "logic": null,
+      "rules": [
+        {
+          "type": "wc_customer_order_count",
+          "operator": "<",
+          "value": "5",
+          "logic": "AND"
+        }
+      ]
+    }
+  ]
+}

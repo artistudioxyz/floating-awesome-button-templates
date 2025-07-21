@@ -1,0 +1,28 @@
+{
+  "id": "open-collective",
+  "name": "Open Collective Button",
+  "description": "Add a floating Open Collective button to your website, making it easy for visitors to support and contribute to your project. Perfect for open source projects and community initiatives!",
+  "license": "free",
+  "settings": {
+    "type": "link", 
+    "link": "https://opencollective.com/your-collective",
+    "open_in_new_tab": true
+  },
+  "design": {
+    "color": "#7FADF2",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-heart"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  }
+}

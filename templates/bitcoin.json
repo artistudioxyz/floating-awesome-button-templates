@@ -1,0 +1,29 @@
+{
+  "id": "bitcoin",
+  "name": "Bitcoin Button",
+  "docs": 12683,
+  "description": "Add a floating Bitcoin button to your website, allowing visitors to quickly access your Bitcoin wallet address. Perfect for accepting cryptocurrency donations and payments!",
+  "license": "free",
+  "settings": {
+    "type": "link",
+    "link": "bitcoin:your-wallet-address",
+    "open_in_new_tab": true
+  },
+  "design": {
+    "color": "#F7931A",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-brands fa-bitcoin"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  }
+}

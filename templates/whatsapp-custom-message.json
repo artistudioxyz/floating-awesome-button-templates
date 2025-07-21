@@ -1,0 +1,60 @@
+{
+  "id": "whatsapp-custom-message",
+  "name": "WhatsApp Custom Message",
+  "docs": 12281,
+  "description": "Add a WhatsApp contact form with a custom message. Perfect for providing instant messaging support and connecting with visitors!",
+  "license": "free",
+  "settings": {
+    "type": "modal",
+    "content": "[fab_whatsapp_form description='Contact us via WhatsApp' phone_number='+1234567890' name_placeholder='Your Name' message_placeholder='Hello, I want to order your service.']"
+  },
+  "design": {
+    "color": "#25D366",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fab fa-whatsapp"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  },
+  "modal": {
+    "size": "small",
+    "layout": {
+      "id": "stacked",
+      "background": {
+        "color": "#fff"
+      },
+      "overlay": {
+        "color": "",
+        "opacity": 0
+      },
+      "content": {
+        "padding": {
+          "top": "1",
+          "right": "1",
+          "bottom": "1",
+          "left": "1",
+          "sizing": "rem"
+        },
+        "margin": {
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "sizing": "rem"
+        }
+      }
+    },
+    "navigation": {
+      "iconCover": true
+    }
+  }
+}

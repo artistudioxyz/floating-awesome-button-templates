@@ -1,0 +1,37 @@
+{
+  "id": "listen-podcast-toast",
+  "name": "Listen Podcast Toast",
+  "description": "Add a podcast listening toast notification to promote your latest podcast episodes. Perfect for growing your podcast audience and increasing listener engagement!",
+  "license": "free",
+  "settings": {
+    "type": "toast",
+    "message": "Listen to our latest podcast episode and stay informed!",
+    "duration": 3000,
+    "text_button": "Listen Now",
+    "url_button": "#",
+    "open_in_new_tab": true
+  },
+  "design": {
+    "color": "#607D8B",
+    "icon": {
+        "color": "#fff",
+        "class": "fa-solid fa-podcast"
+    },
+    "closeable": true,
+    "gravity": "top",
+    "position": "left",
+    "background": "#fff",
+    "text_color": "#020202",
+    "bar_color": "#607D8B",
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    }
+  },
+  "cookie": {
+    "expiration": "7"
+  }
+}

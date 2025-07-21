@@ -1,0 +1,74 @@
+{
+  "id": "woocommerce-popup-for-products-price-above",
+  "name": "WooCommerce Popup for Products Price Above {price}",
+  "description": "Display a popup for WooCommerce products with price above a specified threshold. Perfect for highlighting premium products and exclusive offers!",
+  "license": "free",
+  "settings": {
+    "type": "modal",
+    "content": "✨ PREMIUM PRODUCT ALERT! You're viewing one of our exclusive high-end items. As a valued customer interested in premium products, you qualify for our VIP service and special benefits. Contact us for personalized assistance and exclusive offers! 🎯"
+  },
+  "design": {
+    "color": "#7f54b3",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-circle-dollar-to-slot"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  },
+  "modal": {
+    "layout": {
+      "id": "stacked",
+      "background": {
+        "color": "#fff"
+      },
+      "overlay": {
+        "color": "#f9f9f9",
+        "opacity": 0.8
+      },
+      "content": {
+        "padding": {
+          "top": "1",
+          "right": "1",
+          "bottom": "1",
+          "left": "1",
+          "sizing": "rem"
+        },
+        "margin": {
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "sizing": "rem"
+        }
+      }
+    },
+    "navigation": {
+      "iconCover": true
+    }
+  },
+  "location": [
+    {
+      "logic": null,
+      "rules": [
+        {
+          "type": "fields_custom_postmeta",
+          "operator": ">",
+          "value": {
+            "meta_key": "_price",
+            "meta_value": "100"
+          },
+          "logic": "OR"
+        }
+      ]
+    }
+  ]
+}

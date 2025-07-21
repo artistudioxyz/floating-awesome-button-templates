@@ -1,0 +1,27 @@
+{
+  "id": "single-page",
+  "name": "Single Page Button",
+  "description": "Add a floating button to link to a specific page on your website. Perfect for highlighting important pages or directing visitors to key information!",
+  "license": "free",
+  "settings": {
+    "type": "single_post",
+    "post_type": "page"
+  },
+  "design": {
+    "color": "#2196F3",
+    "grouped": true,
+    "icon": {
+      "color": "#fff", 
+      "class": "fa-solid fa-file-lines"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  }
+}

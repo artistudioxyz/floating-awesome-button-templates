@@ -1,0 +1,30 @@
+{
+  "id": "woocommerce-buy-now-with-product-title",
+  "name": "WooCommerce Buy Now with {product_title}",
+  "docs": 12627,
+  "description": "Add a floating buy now button with product title that follows your customers as they browse your WooCommerce store. Enables customers to quickly purchase products with a single click from anywhere on your site!",
+  "license": "free",
+  "requires": ["woocommerce/woocommerce.php"],
+  "settings": {
+    "type": "quick_purchase",
+    "quick_purchase": "fab_buy_now",
+    "show_title": true
+  },
+  "design": {
+    "color": "#7f54b3",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-bolt"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  }
+}

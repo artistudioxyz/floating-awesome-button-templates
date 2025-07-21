@@ -1,0 +1,28 @@
+{
+  "id": "spotify",
+  "name": "Spotify Button",
+  "description": "Add a floating Spotify button to your website, making it easy for visitors to follow your music or playlists. Perfect for artists, musicians and music enthusiasts!",
+  "license": "free",
+  "settings": {
+    "type": "link",
+    "link": "https://open.spotify.com/user/your-username",
+    "open_in_new_tab": true
+  },
+  "design": {
+    "color": "#1DB954",
+    "grouped": true,
+    "icon": {
+      "color": "#fff", 
+      "class": "fa-brands fa-spotify"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  }
+}

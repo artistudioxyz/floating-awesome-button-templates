@@ -1,0 +1,40 @@
+{
+  "id": "floating-button-on-search-page",
+  "name": "Floating Button on Search Pages",
+  "description": "Display a floating button that appears only on search results pages. Perfect for helping visitors refine their search, access advanced filters, or navigate search results!",
+  "license": "premium",
+  "settings": {
+    "type": "link",
+    "link": "#"
+  },
+  "design": {
+    "color": "#2196F3",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-magnifying-glass"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  },
+  "location": [
+    {
+      "logic": null,
+      "rules": [
+        {
+          "type": "conditional_tags_conditions",
+          "operator": "==",
+          "value": "is_search",
+          "logic": "OR"
+        }
+      ]
+    }
+  ]
+}

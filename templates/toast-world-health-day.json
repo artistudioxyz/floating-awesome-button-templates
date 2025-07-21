@@ -1,0 +1,53 @@
+{
+  "id": "toast-world-health-day",
+  "name": "World Health Day Toast",
+  "description": "Add a health awareness toast notification to celebrate World Health Day and promote the importance of global health. Perfect for healthcare organizations and wellness advocates!",
+  "license": "premium",
+  "settings": {
+    "type": "toast",
+    "message": "Today is World Health Day. Let's work together to build a healthier world for everyone.",
+    "duration": 3000,
+    "text_button": "Learn More",
+    "url_button": "https://www.who.int/campaigns/world-health-day",
+    "open_in_new_tab": false
+  },
+  "design": {
+    "color": "#E91E63",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-heart-pulse"
+    },
+    "closeable": true,
+    "gravity": "top",
+    "position": "left",
+    "background": "#fff",
+    "text_color": "#020202",
+    "bar_color": "#E91E63",
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  },
+  "cookie": {
+    "expiration": "0"
+  },
+  "location": [
+    {
+      "logic": null,
+      "rules": [
+        {
+          "type": "schedule_yearly",
+          "operator": "==",
+          "value": "2025-04-07",
+          "logic": "OR"
+        }
+      ]
+    }
+  ]
+}

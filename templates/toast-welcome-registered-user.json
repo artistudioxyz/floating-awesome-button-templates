@@ -1,0 +1,50 @@
+{
+  "id": "toast-welcome-registered-user",
+  "name": "Welcome Toast for Registered User",
+  "description": "Add a welcoming toast notification to greet your newly registered users. Perfect for thanking them for joining your website!",
+  "license": "premium",
+  "settings": {
+    "type": "toast",
+    "message": "Welcome! Thank you for registering on our website.",
+    "duration": 3000,
+    "text_button": "",
+    "url_button": "#",
+    "open_in_new_tab": true
+  },
+  "design": {
+    "color": "#2196F3",
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-user-check"
+    },
+    "closeable": true,
+    "gravity": "top",
+    "position": "left",
+    "background": "#fff",
+    "text_color": "#020202",
+    "bar_color": "#2196F3",
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    }
+  },
+  "location": [
+    {
+      "logic": null,
+      "rules": [
+        {
+          "type": "user_within_n_hour_after_registered",
+          "operator": ">",
+          "value": 1,
+          "logic": "OR"
+        }
+      ]
+    }
+  ],
+  "cookie": {
+    "expiration": "9999"
+  }
+}

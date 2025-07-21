@@ -1,0 +1,37 @@
+{
+  "id": "get-quote-toast",
+  "name": "Get Quote Toast",
+  "description": "Add a quote request toast notification to capture leads from potential customers. Perfect for service businesses and consultants looking to generate inquiries!",
+  "license": "free",
+  "settings": {
+    "type": "toast",
+    "message": "Get a personalized quote for your project today!",
+    "duration": 3000,
+    "text_button": "Request Quote",
+    "url_button": "#",
+    "open_in_new_tab": true
+  },
+  "design": {
+    "color": "#4CAF50",
+    "icon": {
+        "color": "#fff",
+        "class": "fa-solid fa-calculator"
+    },
+    "closeable": true,
+    "gravity": "top",
+    "position": "left",
+    "background": "#fff",
+    "text_color": "#020202",
+    "bar_color": "#4CAF50",
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    }
+  },
+  "cookie": {
+    "expiration": "7"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": "toast-world-teachers-day",
+  "name": "World Teachers' Day Toast",
+  "description": "Add a special toast notification to celebrate World Teachers' Day and honor educators worldwide. Perfect for educational institutions and showing appreciation for teachers!",
+  "license": "premium",
+  "settings": {
+    "type": "toast",
+    "message": "Today is World Teachers' Day. Thank you to all educators who inspire and shape our future!",
+    "duration": 3000,
+    "text_button": "Learn More",
+    "url_button": "https://en.unesco.org/commemorations/worldteachersday",
+    "open_in_new_tab": false
+  },
+  "design": {
+    "color": "#9C27B0",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-chalkboard-user"
+    },
+    "closeable": true,
+    "gravity": "top",
+    "position": "left",
+    "background": "#fff",
+    "text_color": "#020202",
+    "bar_color": "#9C27B0",
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  },
+  "cookie": {
+    "expiration": "0"
+  },
+  "location": [
+    {
+      "logic": null,
+      "rules": [
+        {
+          "type": "schedule_yearly",
+          "operator": "==",
+          "value": "2024-10-05",
+          "logic": "OR"
+        }
+      ]
+    }
+  ]
+}

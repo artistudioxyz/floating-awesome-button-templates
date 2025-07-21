@@ -1,0 +1,74 @@
+{
+  "id": "woocommerce-popup-for-out-of-stock-product",
+  "name": "WooCommerce Popup for Out of Stock Products",
+  "description": "Display a popup for WooCommerce products that are currently out of stock. Perfect for collecting customer interest and providing stock notifications!",
+  "license": "free",
+  "settings": {
+    "type": "modal",
+    "content": "🔔 OUT OF STOCK ALERT: This product is currently unavailable. Want to be notified when it's back in stock? Leave your email and we'll let you know as soon as it's available! Don't miss out on this popular item! 📧"
+  },
+  "design": {
+    "color": "#7f54b3",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-box-open"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  },
+  "modal": {
+    "layout": {
+      "id": "stacked",
+      "background": {
+        "color": "#fff"
+      },
+      "overlay": {
+        "color": "#f9f9f9",
+        "opacity": 0.8
+      },
+      "content": {
+        "padding": {
+          "top": "1",
+          "right": "1",
+          "bottom": "1",
+          "left": "1",
+          "sizing": "rem"
+        },
+        "margin": {
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "sizing": "rem"
+        }
+      }
+    },
+    "navigation": {
+      "iconCover": true
+    }
+  },
+  "location": [
+    {
+      "logic": null,
+      "rules": [
+        {
+          "type": "fields_custom_postmeta",
+          "operator": "==",
+          "value": {
+            "meta_key": "_stock_status",
+            "meta_value": "outofstock"
+          },
+          "logic": "OR"
+        }
+      ]
+    }
+  ]
+}

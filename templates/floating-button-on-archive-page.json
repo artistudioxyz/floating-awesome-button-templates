@@ -1,0 +1,40 @@
+{
+  "id": "floating-button-on-archive-page",
+  "name": "Floating Button on Archive Pages",
+  "description": "Display a floating button that appears only on archive pages. Perfect for helping visitors navigate categories, tags, dates and other archive collections!",
+  "license": "premium",
+  "settings": {
+    "type": "link",
+    "link": "#"
+  },
+  "design": {
+    "color": "#2196F3",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-folder-open"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  },
+  "location": [
+    {
+      "logic": null,
+      "rules": [
+        {
+          "type": "conditional_tags_conditions",
+          "operator": "==",
+          "value": "is_archive",
+          "logic": "OR"
+        }
+      ]
+    }
+  ]
+}

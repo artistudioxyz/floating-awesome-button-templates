@@ -1,0 +1,54 @@
+{
+  "id": "popup-related-post",
+  "name": "Related Post Popup",
+  "description": "Add a related post popup window to your website that automatically displays relevant blog posts or articles to keep visitors engaged and increase page views. This popup appears contextually based on the current post being viewed.",
+  "license": "free",
+  "settings": {
+    "type": "related_post"
+  },
+  "design": {
+    "color": "#6b21a8",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-newspaper"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  },
+  "modal": {
+    "layout": {
+      "id": "stacked",
+      "background": {
+        "color": "#fff"
+      },
+      "overlay": {
+        "color": "#f9f9f9",
+        "opacity": 0.8
+      },
+      "content": {
+        "padding": {
+          "top": "1",
+          "right": "1",
+          "bottom": "1",
+          "left": "1",
+          "sizing": "rem"
+        },
+        "margin": {
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "sizing": "rem"
+        }
+      }
+    }
+  }
+}

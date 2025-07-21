@@ -1,0 +1,40 @@
+{
+  "id": "floating-button-on-posts",
+  "name": "Floating Button on Posts",
+  "description": "Display a floating button that appears only on blog posts and articles. Perfect for social sharing, related content links, or encouraging reader engagement!",
+  "license": "premium",
+  "settings": {
+    "type": "link",
+    "link": "#"
+  },
+  "design": {
+    "color": "#2196F3",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-newspaper"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  },
+  "location": [
+    {
+      "logic": null,
+      "rules": [
+        {
+          "type": "post_type",
+          "operator": "==",
+          "value": "post",
+          "logic": "OR"
+        }
+      ]
+    }
+  ]
+}

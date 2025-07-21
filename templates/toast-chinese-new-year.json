@@ -1,0 +1,53 @@
+{
+  "id": "toast-chinese-new-year",
+  "name": "Chinese New Year Toast",
+  "description": "Add a festive Chinese New Year toast notification to welcome visitors and share holiday greetings. Perfect for celebrating the Lunar New Year with your website visitors!",
+  "license": "premium",
+  "settings": {
+    "type": "toast",
+    "message": "恭喜发财! Happy Chinese New Year! May this year bring you prosperity and good fortune.",
+    "duration": 3000,
+    "text_button": "Celebrate With Us",
+    "url_button": "#",
+    "open_in_new_tab": false
+  },
+  "design": {
+    "color": "#FF0000",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-dragon"
+    },
+    "closeable": true,
+    "gravity": "top",
+    "position": "left",
+    "background": "#fff",
+    "text_color": "#020202",
+    "bar_color": "#FF0000",
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  },
+  "cookie": {
+    "expiration": "0"
+  },
+  "location": [
+    {
+      "logic": null,
+      "rules": [
+        {
+          "type": "schedule_yearly",
+          "operator": "==",
+          "value": "2024-02-10",
+          "logic": "OR"
+        }
+      ]
+    }
+  ]
+}

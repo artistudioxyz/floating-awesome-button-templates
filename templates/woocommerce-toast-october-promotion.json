@@ -1,0 +1,54 @@
+{
+  "id": "woocommerce-toast-october-promotion",
+  "name": "WooCommerce October Promotion Toast",
+  "description": "Add a toast notification to promote your October Halloween sale. Perfect for WooCommerce stores looking to boost sales during the Halloween season!",
+  "license": "premium",
+  "requires": ["woocommerce/woocommerce.php"],
+  "settings": {
+    "type": "toast",
+    "message": "Spooktacular Savings! Get up to 40% off on Halloween specials and fall favorites!",
+    "duration": 3000,
+    "text_button": "Shop Now",
+    "url_button": "/shop",
+    "open_in_new_tab": false
+  },
+  "design": {
+    "color": "#7f54b3",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-ghost"
+    },
+    "closeable": true,
+    "gravity": "top",
+    "position": "left",
+    "background": "#fff",
+    "text_color": "#020202",
+    "bar_color": "#7f54b3",
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  },
+  "cookie": {
+    "expiration": "0"
+  },
+  "location": [
+    {
+      "logic": null,
+      "rules": [
+        {
+          "type": "schedule_month",
+          "operator": "==",
+          "value": "10",
+          "logic": "AND"
+        }
+      ]
+    }
+  ]
+}

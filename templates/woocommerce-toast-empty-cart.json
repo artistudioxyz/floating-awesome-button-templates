@@ -1,0 +1,54 @@
+{
+  "id": "woocommerce-toast-empty-cart",
+  "name": "WooCommerce Empty Cart Toast",
+  "description": "Display a toast notification when a customer's cart is empty. Perfect for WooCommerce stores looking to encourage customers to start shopping!",
+  "license": "premium",
+  "requires": ["woocommerce/woocommerce.php"],
+  "settings": {
+    "type": "toast",
+    "message": "Your cart is empty! Discover our amazing products and start shopping today.",
+    "duration": 4000,
+    "text_button": "Browse Products",
+    "url_button": "/shop",
+    "open_in_new_tab": false
+  },
+  "design": {
+    "color": "#7f54b3",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-cart-shopping"
+    },
+    "closeable": true,
+    "gravity": "top",
+    "position": "left",
+    "background": "#fff",
+    "text_color": "#020202",
+    "bar_color": "#7f54b3",
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  },
+  "cookie": {
+    "expiration": "0"
+  },
+  "location": [
+    {
+      "logic": null,
+      "rules": [
+        {
+          "type": "wc_cart_subtotal",
+          "operator": "==",
+          "value": "0",
+          "logic": "AND"
+        }
+      ]
+    }
+  ]
+}

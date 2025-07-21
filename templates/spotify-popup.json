@@ -1,0 +1,55 @@
+{
+  "id": "spotify-popup",
+  "name": "Spotify Popup",
+  "description": "Add a popup window to embed and showcase your Spotify tracks, albums or playlists. Perfect for musicians who want to share their music content!",
+  "license": "free",
+  "settings": {
+    "type": "modal",
+    "content": "<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/track/TRACK_ID\" width=\"100%\" height=\"352\" frameborder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
+  },
+  "design": {
+    "color": "#1DB954",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-brands fa-spotify"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  },
+  "modal": {
+    "layout": {
+      "id": "stacked",
+      "background": {
+        "color": "#fff"
+      },
+      "overlay": {
+        "color": "#f9f9f9",
+        "opacity": 0.8
+      },
+      "content": {
+        "padding": {
+          "top": "1",
+          "right": "1",
+          "bottom": "1",
+          "left": "1",
+          "sizing": "rem"
+        },
+        "margin": {
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "sizing": "rem"
+        }
+      }
+    }
+  }
+}

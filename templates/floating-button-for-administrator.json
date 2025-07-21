@@ -1,0 +1,41 @@
+{
+  "id": "floating-button-for-administrator",
+  "name": "Floating Button for Administrators",
+  "docs": 12735,
+  "description": "Display a floating button that only appears for administrator users. Perfect for quick access to admin dashboard, site management, or administrative functions!",
+  "license": "premium",
+  "settings": {
+    "type": "link",
+    "link": "#"
+  },
+  "design": {
+    "color": "#2196F3",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-user-shield"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  },
+  "location": [
+    {
+      "logic": null,
+      "rules": [
+        {
+          "type": "user_role",
+          "operator": "==",
+          "value": "administrator",
+          "logic": "OR"
+        }
+      ]
+    }
+  ]
+}

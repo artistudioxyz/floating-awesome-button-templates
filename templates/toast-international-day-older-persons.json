@@ -1,0 +1,53 @@
+{
+  "id": "toast-international-day-older-persons",
+  "name": "International Day of Older Persons Toast",
+  "description": "Add a thoughtful toast notification to celebrate International Day of Older Persons and promote respect and dignity for the elderly. Perfect for organizations working with seniors and care facilities!",
+  "license": "premium",
+  "settings": {
+    "type": "toast",
+    "message": "Today is International Day of Older Persons. Let's celebrate and honor the wisdom and contributions of our elderly community.",
+    "duration": 3000,
+    "text_button": "Learn More",
+    "url_button": "https://www.un.org/en/observances/older-persons-day",
+    "open_in_new_tab": false
+  },
+  "design": {
+    "color": "#795548",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-heart"
+    },
+    "closeable": true,
+    "gravity": "top",
+    "position": "left",
+    "background": "#fff",
+    "text_color": "#020202",
+    "bar_color": "#795548",
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  },
+  "cookie": {
+    "expiration": "0"
+  },
+  "location": [
+    {
+      "logic": null,
+      "rules": [
+        {
+          "type": "schedule_yearly",
+          "operator": "==",
+          "value": "2025-10-01",
+          "logic": "OR"
+        }
+      ]
+    }
+  ]
+}

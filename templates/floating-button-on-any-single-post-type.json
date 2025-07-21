@@ -1,0 +1,40 @@
+{
+  "id": "floating-button-on-any-single-post-type",
+  "name": "Floating Button on Any Single Post Type",
+  "description": "Display a floating button that appears on any single post type page. Perfect for enhancing navigation and engagement on individual posts, pages, and custom post types!",
+  "license": "premium",
+  "settings": {
+    "type": "link",
+    "link": "#"
+  },
+  "design": {
+    "color": "#2196F3",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-file-lines"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  },
+  "location": [
+    {
+      "logic": null,
+      "rules": [
+        {
+          "type": "conditional_tags_conditions",
+          "operator": "==",
+          "value": "is_singular",
+          "logic": "OR"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "youtube",
+  "name": "YouTube Button",
+  "description": "Add a floating YouTube button to your website, enabling visitors to quickly connect with your YouTube channel or videos. Perfect for sharing video content and growing your subscriber base!",
+  "license": "free",
+  "settings": {
+    "type": "link",
+    "link": "https://youtube.com/@yourchannel",
+    "open_in_new_tab": true
+  },
+  "design": {
+    "color": "#FF0000",
+    "grouped": true,
+    "icon": {
+      "color": "#fff", 
+      "class": "fa-brands fa-youtube"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "reddit",
+  "name": "Reddit Button",
+  "description": "Add a floating Reddit button to your website, enabling visitors to share and discuss your content on Reddit. Perfect for websites looking to engage with Reddit's diverse community and drive social engagement!",
+  "license": "free",
+  "settings": {
+    "type": "link", 
+    "link": "https://reddit.com/your-profile",
+    "open_in_new_tab": true
+  },
+  "design": {
+    "color": "#FF4500",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-brands fa-reddit"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  }
+}

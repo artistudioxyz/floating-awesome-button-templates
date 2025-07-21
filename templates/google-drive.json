@@ -1,0 +1,28 @@
+{
+  "id": "google-drive",
+  "name": "Google Drive Button",
+  "description": "Add a floating Google Drive button to your website, allowing visitors to quickly access your shared Google Drive content. Perfect for file sharing and document collaboration!",
+  "license": "free",
+  "settings": {
+    "type": "link",
+    "link": "https://drive.google.com/drive/folders/your-folder-id",
+    "open_in_new_tab": true
+  },
+  "design": {
+    "color": "#1FA463",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-brands fa-google-drive"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  }
+}

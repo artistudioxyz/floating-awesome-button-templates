@@ -1,0 +1,26 @@
+{
+  "id": "latest-post",
+  "name": "Latest Post Button",
+  "description": "Add a floating latest post button to your website, enabling visitors to quickly access your most recent blog post or article. Perfect for blogs, news sites, and content-driven websites!",
+  "license": "free",
+  "settings": {
+    "type": "latest_post_link"
+  },
+  "design": {
+    "color": "#FF5722",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-newspaper"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": "toast-happy-halloween",
+  "name": "Happy Halloween Toast",
+  "description": "Add a spooky Halloween toast notification to share festive greetings. Perfect for creating a fun and haunting atmosphere for your website visitors!",
+  "license": "premium",
+  "settings": {
+    "type": "toast",
+    "message": "Happy Halloween! Wishing you a spooktacular time filled with treats and fun.",
+    "duration": 3000,
+    "text_button": "Trick or Treat",
+    "url_button": "#",
+    "open_in_new_tab": false
+  },
+  "design": {
+    "color": "#FF6B00",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-ghost"
+    },
+    "closeable": true,
+    "gravity": "top",
+    "position": "left",
+    "background": "#fff",
+    "text_color": "#020202",
+    "bar_color": "#FF6B00",
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  },
+  "cookie": {
+    "expiration": "0"
+  },
+  "location": [
+    {
+      "logic": null,
+      "rules": [
+        {
+          "type": "schedule_yearly",
+          "operator": "==",
+          "value": "2024-10-31",
+          "logic": "OR"
+        }
+      ]
+    }
+  ]
+}

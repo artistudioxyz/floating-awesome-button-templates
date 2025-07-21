@@ -1,0 +1,43 @@
+{
+  "id": "limited-time-offer-button",
+  "name": "Limited Time Offer Button",
+  "description": "Create urgency with a countdown-based button for limited-time offers. Perfect for flash sales, promos, or product launches with a 3-day deadline.",
+  "license": "premium",
+  "settings": {
+    "type": "link",
+    "link": "#"
+  },
+  "design": {
+    "color": "#FF5722",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-bolt"
+    },
+    "tooltip": {
+      "countdown_timer": true
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  },
+  "location": [
+    {
+      "logic": null,
+      "rules": [
+        {
+          "type": "schedule_date",
+          "operator": "<",
+          "value": "3days",
+          "logic": "OR"
+        }
+      ]
+    }
+  ]
+}

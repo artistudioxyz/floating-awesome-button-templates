@@ -1,0 +1,29 @@
+{
+  "id": "whatsapp-with-current-page-link",
+  "name": "WhatsApp with Current Page Link",
+  "description": "Add a WhatsApp button that connects visitors directly to your business and includes the current page URL in the message. Perfect for tracking leads!",
+  "license": "free",
+  "settings": {
+    "type": "link",
+    "link": "https://api.whatsapp.com/send?phone=+112345678910",
+    "content": "👋 Hello!\n\nThanks for reaching out to [Your Business Name]. I'm interested in this page:\n\n{current_page_url}\n\n✨ OUR SERVICES:\n\n✅ Quick Response Time\n✅ Professional Support\n✅ Personalized Assistance\n\n📞 Contact Details:\nWhatsApp: [Your WhatsApp Number]\nWebsite: [Your Website]\n\nWe look forward to serving you! 😊",
+    "open_in_new_tab": true
+  },
+  "design": {
+    "color": "#25D366",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-brands fa-whatsapp"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  }
+}

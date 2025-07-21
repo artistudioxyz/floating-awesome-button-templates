@@ -1,0 +1,30 @@
+{
+  "id": "whatsapp-hotels",
+  "docs": 12285,
+  "name": "WhatsApp Hotels",
+  "description": "Add a WhatsApp button that connects guests directly to your hotel. Perfect for hotels, resorts, and accommodations looking to handle bookings, inquiries, and guest services through WhatsApp!",
+  "license": "free",
+  "settings": {
+    "type": "link",
+    "link": "https://api.whatsapp.com/send?phone=+112345678910",
+    "content": "🏨 Welcome to [Your Hotel Name] ✨\n\nThank you for your interest in staying with us! We're here to make your stay exceptional.\n\n🌟 OUR ACCOMMODATIONS:\n\n🛏️ Deluxe Rooms\n• Spacious comfort\n• Modern amenities\n• City views\n\n👑 Suite Collection\n• Luxury living space\n• Premium facilities\n• VIP services\n\n🏖️ Special Rooms\n• Beachfront villas\n• Family rooms\n• Executive suites\n\n✨ WHY CHOOSE US?\n✅ Prime Location - Central to attractions\n✅ Luxury Amenities - Full-service spa & pool\n✅ 24/7 Service - Always at your service\n✅ Fine Dining - World-class restaurants\n\n📍 HOTEL INFORMATION:\n⏰ Check-in: [Check-in Time]\n⌛ Check-out: [Check-out Time]\n📞 WhatsApp: [Your Number]\n🌐 Website: [Your Website]\n📍 Address: [Your Address]\n\n🎉 HOTEL SERVICES:\n• Room Service\n• Concierge\n• Airport Transfer\n• Spa & Wellness\n\n💫 SPECIAL OFFERS:\n• Early Bird Discounts\n• Extended Stay Packages\n• Seasonal Promotions\n• Loyalty Rewards\n\n📱 HOW TO BOOK:\n1. Check availability\n2. Select your dates\n3. Choose your room\n4. We'll confirm your stay!\n\nReady to book your stay? Message us now! 🌟",
+    "open_in_new_tab": true
+  },
+  "design": {
+    "color": "#25D366",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-brands fa-whatsapp"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  }
+}

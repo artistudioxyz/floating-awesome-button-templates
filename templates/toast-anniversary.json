@@ -1,0 +1,53 @@
+{
+  "id": "toast-anniversary",
+  "name": "Anniversary Toast",
+  "description": "Add a celebratory toast notification to commemorate your website or business anniversary. Perfect for sharing your milestone with visitors and expressing gratitude for their support!",
+  "license": "premium",
+  "settings": {
+    "type": "toast",
+    "message": "Celebrating our anniversary! Thank you for being part of our journey.",
+    "duration": 3000,
+    "text_button": "Learn More",
+    "url_button": "#",
+    "open_in_new_tab": false
+  },
+  "design": {
+    "color": "#8E44AD",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-cake-candles"
+    },
+    "closeable": true,
+    "gravity": "top",
+    "position": "left",
+    "background": "#fff",
+    "text_color": "#020202",
+    "bar_color": "#8E44AD",
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  },
+  "cookie": {
+    "expiration": "0"
+  },
+  "location": [
+    {
+      "logic": null,
+      "rules": [
+        {
+          "type": "schedule_yearly",
+          "operator": "==",
+          "value": "2011-11-11",
+          "logic": "OR"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "woocommerce-toast-autumn-promotion",
+  "docs": 12788,
+  "name": "WooCommerce Autumn Promotion Toast",
+  "description": "Add a toast notification to promote your autumn season sale. Perfect for WooCommerce stores looking to boost sales during the autumn season!",
+  "license": "premium",
+  "requires": ["woocommerce/woocommerce.php"],
+  "settings": {
+    "type": "toast",
+    "message": "Autumn Sale! Fall into savings with up to 40% off on seasonal favorites.",
+    "duration": 3000,
+    "text_button": "Shop Now",
+    "url_button": "/shop",
+    "open_in_new_tab": false
+  },
+  "design": {
+    "color": "#7f54b3",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-leaf"
+    },
+    "closeable": true,
+    "gravity": "top",
+    "position": "left",
+    "background": "#fff",
+    "text_color": "#020202",
+    "bar_color": "#D35400",
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  },
+  "cookie": {
+    "expiration": "0"
+  },
+  "location": [
+    {
+      "logic": null,
+      "rules": [
+        {
+          "type": "schedule_date",
+          "operator": ">=",
+          "value": "2025-09-01",
+          "logic": "OR"
+        },
+        {
+          "type": "schedule_date",
+          "operator": "<=",
+          "value": "2025-11-30",
+          "logic": "AND"
+        }
+      ]
+    }
+  ]
+}

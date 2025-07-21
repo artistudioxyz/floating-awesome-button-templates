@@ -1,0 +1,58 @@
+{
+  "id": "popup-social-sharing",
+  "name": "Social Sharing Popup",
+  "description": "Add a social sharing popup window to your website that displays social media sharing buttons. Perfect for encouraging visitors to share your content across various social platforms!",
+  "license": "free",
+  "settings": {
+    "type": "social_sharing",
+    "content": "Hey there, found something valuable? Share it with your friends and followers - they'll love discovering helpful content that makes their day better! Be that awesome friend who spreads useful information. 🌟"
+  },
+  "design": {
+    "color": "#2563EB",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-share-nodes"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  },
+  "modal": {
+    "layout": {
+      "id": "stacked",
+      "background": {
+        "color": "#fff"
+      },
+      "overlay": {
+        "color": "#f9f9f9",
+        "opacity": 0.8
+      },
+      "content": {
+        "padding": {
+          "top": "1",
+          "right": "1",
+          "bottom": "1",
+          "left": "1",
+          "sizing": "rem"
+        },
+        "margin": {
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "sizing": "rem"
+        }
+      }
+    },
+    "navigation": {
+      "iconCover": true
+    }
+  }
+}

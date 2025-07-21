@@ -1,0 +1,30 @@
+{
+  "id": "whatsapp-wedding-organizer",
+  "docs": 12285,
+  "name": "WhatsApp Wedding Organizer",
+  "description": "Add a WhatsApp button that connects couples directly to your wedding planning services. Perfect for wedding planners, organizers, and vendors looking to provide personalized consultation and event coordination through WhatsApp!",
+  "license": "free",
+  "settings": {
+    "type": "link",
+    "link": "https://api.whatsapp.com/send?phone=+112345678910",
+    "content": "💍 Welcome to [Your Wedding Planning Business] 💝\n\nCongratulations on your engagement! Let us help make your dream wedding a reality.\n\n✨ OUR WEDDING PACKAGES:\n\n👰 Classic Elegance\n• Full wedding planning & coordination\n• Venue selection assistance\n• Vendor management\n• Timeline planning\n\n🌟 Premium Romance\n• All Classic features +\n• Custom design & styling\n• Premium vendor network\n• Guest experience management\n\n💎 Luxury Celebration\n• All Premium features +\n• Destination wedding planning\n• VIP concierge service\n• Exclusive vendor access\n\n💫 WHY CHOOSE US?\n✅ Experienced Planners - 100+ weddings organized\n✅ Stress-Free Planning - We handle every detail\n✅ Vendor Network - Best rates from trusted partners\n✅ Personal Touch - Your vision, our expertise\n\n📍 CONTACT DETAILS:\n📞 WhatsApp: [Your Number]\n🌐 Website: [Your Website]\n📸 Instagram: @[Your Handle]\n📧 Email: [Your Email]\n\n🎉 SPECIAL OFFERS:\n• Free initial consultation\n• Early bird discounts\n• Seasonal packages\n• Referral rewards\n\n📅 Ready to start planning?\n1. Share your wedding date\n2. Tell us your vision\n3. Get a customized quote\n4. Begin the journey!\n\nLet's create your perfect wedding day! 💕",
+    "open_in_new_tab": true
+  },
+  "design": {
+    "color": "#25D366",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-brands fa-whatsapp"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  }
+}

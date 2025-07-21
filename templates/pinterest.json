@@ -1,0 +1,28 @@
+{
+  "id": "pinterest",
+  "name": "Pinterest Button",
+  "description": "Add a floating Pinterest button to your website, making it easy for visitors to save and share your visual content. Perfect for businesses focusing on lifestyle, DIY, fashion, and visual inspiration!",
+  "license": "free",
+  "settings": {
+    "type": "link",
+    "link": "https://pinterest.com/your-profile",
+    "open_in_new_tab": true
+  },
+  "design": {
+    "color": "#E60023",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-brands fa-pinterest"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  }
+}

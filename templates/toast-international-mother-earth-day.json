@@ -1,0 +1,53 @@
+{
+  "id": "toast-international-mother-earth-day",
+  "name": "International Mother Earth Day Toast",
+  "description": "Add an environmental toast notification to celebrate International Mother Earth Day and promote environmental awareness. Perfect for organizations committed to sustainability and environmental protection!",
+  "license": "premium",
+  "settings": {
+    "type": "toast",
+    "message": "Today is International Mother Earth Day. Let's work together to protect our planet and create a sustainable future.",
+    "duration": 3000,
+    "text_button": "Take Action",
+    "url_button": "https://www.un.org/en/observances/earth-day",
+    "open_in_new_tab": false
+  },
+  "design": {
+    "color": "#4CAF50",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-earth-americas"
+    },
+    "closeable": true,
+    "gravity": "top",
+    "position": "left",
+    "background": "#fff",
+    "text_color": "#020202",
+    "bar_color": "#4CAF50",
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  },
+  "cookie": {
+    "expiration": "0"
+  },
+  "location": [
+    {
+      "logic": null,
+      "rules": [
+        {
+          "type": "schedule_yearly",
+          "operator": "==",
+          "value": "2025-04-22",
+          "logic": "OR"
+        }
+      ]
+    }
+  ]
+}

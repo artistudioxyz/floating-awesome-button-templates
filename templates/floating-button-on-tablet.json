@@ -1,0 +1,27 @@
+{
+  "id": "floating-button-on-tablet",
+  "name": "Floating Button on Tablet",
+  "description": "Add a customizable floating button that only appears on tablet devices. Perfect for tablet-specific calls-to-action and improved tablet user experience!",
+  "license": "premium",
+  "settings": {
+    "type": "link",
+    "link": "#"
+  },
+  "design": {
+    "color": "#2196F3",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-tablet"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 0,
+        "tablet": 1,
+        "desktop": 0
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  }
+}

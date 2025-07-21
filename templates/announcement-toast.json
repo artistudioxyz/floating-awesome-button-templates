@@ -1,0 +1,41 @@
+{
+  "id": "announcement-toast",
+  "name": "Announcement Toast",
+  "docs": 12423,
+  "description": "Add a floating announcement toast to your website, perfect for displaying important messages, updates, or promotions to your visitors. Great for temporary announcements and time-sensitive information!",
+  "license": "free",
+  "settings": {
+    "type": "toast",
+    "message": "Your announcement message here",
+    "duration": 3000,
+    "text_button": "Learn More",
+    "url_button": "#",
+    "open_in_new_tab": false
+  },
+  "design": {
+    "color": "#4CAF50",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-bullhorn"
+    },
+    "closeable": true,
+    "gravity": "top",
+    "position": "left",
+    "background": "#fff",
+    "text_color": "#020202",
+    "bar_color": "#4CAF50",
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  },
+  "cookie": {
+    "expiration": "7"
+  }
+}

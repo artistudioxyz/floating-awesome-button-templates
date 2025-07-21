@@ -1,0 +1,37 @@
+{
+  "id": "feedback-toast",
+  "name": "Feedback Toast",
+  "description": "Add a feedback toast notification to collect valuable insights from your website visitors. Perfect for gathering user feedback and improving user experience!",
+  "license": "free",
+  "settings": {
+    "type": "toast",
+    "message": "We'd love to hear your feedback! How was your experience with our website?",
+    "duration": 3000,
+    "text_button": "Share Feedback",
+    "url_button": "#",
+    "open_in_new_tab": true
+  },
+  "design": {
+    "color": "#9C27B0",
+    "icon": {
+        "color": "#fff",
+        "class": "fa-solid fa-comments"
+    },
+    "closeable": true,
+    "gravity": "top",
+    "position": "left",
+    "background": "#fff",
+    "text_color": "#020202",
+    "bar_color": "#9C27B0",
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    }
+  },
+  "cookie": {
+    "expiration": "30"
+  }
+}

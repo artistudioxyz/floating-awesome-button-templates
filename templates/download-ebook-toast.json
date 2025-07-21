@@ -1,0 +1,37 @@
+{
+  "id": "download-ebook-toast",
+  "name": "Download Ebook Toast",
+  "description": "Add a download ebook toast notification to offer free ebooks to your website visitors. Perfect for lead generation and content marketing!",
+  "license": "free",
+  "settings": {
+    "type": "toast",
+    "message": "Get our free ebook and learn valuable insights!",
+    "duration": 3000,
+    "text_button": "Download Now",
+    "url_button": "#",
+    "open_in_new_tab": true
+  },
+  "design": {
+    "color": "#2196F3",
+    "icon": {
+        "color": "#fff",
+        "class": "fa-solid fa-book"
+    },
+    "closeable": true,
+    "gravity": "top",
+    "position": "left",
+    "background": "#fff",
+    "text_color": "#020202",
+    "bar_color": "#2196F3",
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    }
+  },
+  "cookie": {
+    "expiration": "0"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "floating-button-on-pages",
+  "name": "Floating Button on Pages",
+  "description": "Display a floating button that appears only on pages. Perfect for page-specific actions, navigation aids, or highlighting important page content!",
+  "license": "premium",
+  "settings": {
+    "type": "link",
+    "link": "#"
+  },
+  "design": {
+    "color": "#2196F3",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-file"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  },
+  "location": [
+    {
+      "logic": null,
+      "rules": [
+        {
+          "type": "post_type",
+          "operator": "==",
+          "value": "page",
+          "logic": "OR"
+        }
+      ]
+    }
+  ]
+}

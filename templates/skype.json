@@ -1,0 +1,28 @@
+{
+  "id": "skype",
+  "name": "Skype Button",
+  "description": "Add a floating Skype button to your website, enabling visitors to instantly start a chat or call with you. Perfect for business communications and international contacts!",
+  "license": "free",
+  "settings": {
+    "type": "link",
+    "link": "skype:yourusername?chat",
+    "open_in_new_tab": true
+  },
+  "design": {
+    "color": "#00AFF0",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-brands fa-skype"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  }
+}

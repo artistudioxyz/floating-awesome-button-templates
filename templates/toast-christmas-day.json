@@ -1,0 +1,53 @@
+{
+  "id": "toast-christmas-day",
+  "name": "Christmas Day Toast",
+  "description": "Add a festive Christmas toast notification to spread holiday cheer and share seasonal greetings. Perfect for celebrating Christmas with your website visitors!",
+  "license": "premium",
+  "settings": {
+    "type": "toast",
+    "message": "Merry Christmas! Wishing you and your loved ones a joyful holiday season.",
+    "duration": 3000,
+    "text_button": "Season's Greetings",
+    "url_button": "#",
+    "open_in_new_tab": false
+  },
+  "design": {
+    "color": "#D42426",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-gifts"
+    },
+    "closeable": true,
+    "gravity": "top",
+    "position": "left",
+    "background": "#fff",
+    "text_color": "#020202",
+    "bar_color": "#D42426",
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  },
+  "cookie": {
+    "expiration": "0"
+  },
+  "location": [
+    {
+      "logic": null,
+      "rules": [
+        {
+          "type": "schedule_yearly",
+          "operator": "==",
+          "value": "2025-12-25",
+          "logic": "OR"
+        }
+      ]
+    }
+  ]
+}

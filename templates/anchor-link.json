@@ -1,0 +1,29 @@
+{
+  "id": "anchor-link",
+  "docs": 12236,
+  "name": "Anchor Link Button",
+  "description": "Add a floating anchor link button to your website, allowing visitors to quickly navigate to specific sections of your page. Perfect for long-form content and single-page websites!",
+  "license": "free",
+  "settings": {
+    "type": "anchor_link",
+    "link": "#section-id",
+    "open_in_new_tab": false
+  },
+  "design": {
+    "color": "#2563EB",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-anchor"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  }
+}

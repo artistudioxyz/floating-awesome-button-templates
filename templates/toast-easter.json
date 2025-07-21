@@ -1,0 +1,53 @@
+{
+  "id": "toast-easter",
+  "name": "Easter Toast",
+  "description": "Add a joyful Easter toast notification to share holiday greetings and celebrate the season. Perfect for spreading Easter cheer with your website visitors!",
+  "license": "premium",
+  "settings": {
+    "type": "toast",
+    "message": "Happy Easter! Wishing you and your family a blessed and joyful celebration.",
+    "duration": 3000,
+    "text_button": "Celebrate With Us",
+    "url_button": "#",
+    "open_in_new_tab": false
+  },
+  "design": {
+    "color": "#FFB6C1",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-egg"
+    },
+    "closeable": true,
+    "gravity": "top",
+    "position": "left",
+    "background": "#fff",
+    "text_color": "#020202",
+    "bar_color": "#FFB6C1",
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  },
+  "cookie": {
+    "expiration": "0"
+  },
+  "location": [
+    {
+      "logic": null,
+      "rules": [
+        {
+          "type": "schedule_yearly",
+          "operator": "==",
+          "value": "2025-04-20",
+          "logic": "OR"
+        }
+      ]
+    }
+  ]
+}

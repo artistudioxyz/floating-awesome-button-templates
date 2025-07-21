@@ -1,0 +1,28 @@
+{
+  "id": "buy-ticket",
+  "name": "Buy Ticket Button", 
+  "description": "Add a floating ticket purchase button to your website, making it easy for visitors to buy tickets for your events. Perfect for venues, concerts, and event organizers!",
+  "license": "free",
+  "settings": {
+    "type": "link",
+    "link": "https://your-ticketing-site.com/buy",
+    "open_in_new_tab": true
+  },
+  "design": {
+    "color": "#FF6B6B",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-ticket"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  }
+}

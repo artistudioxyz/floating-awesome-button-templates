@@ -1,0 +1,29 @@
+{
+  "id": "behance",
+  "name": "Behance Button",
+  "docs": 12655,
+  "description": "Add a floating Behance button to your website, making it easy for visitors to access your creative portfolio and design work. Perfect for designers, artists and creative professionals!",
+  "license": "free",
+  "settings": {
+    "type": "link",
+    "link": "https://behance.net/your-profile",
+    "open_in_new_tab": true
+  },
+  "design": {
+    "color": "#1769FF",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-brands fa-behance"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  }
+}
