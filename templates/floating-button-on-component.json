@@ -1,0 +1,41 @@
+{
+  "id": "floating-button-on-component",
+  "name": "Floating Button On Component",
+  "description": "Create a dynamic floating button that intelligently appears when users scroll to a specific component on your page. Perfect for targeted call-to-actions that engage visitors right when they're viewing relevant content!",
+  "license": "premium",
+  "settings": {
+    "type": "link",
+    "link": "#",
+    "text": "Related Content"
+  },
+  "design": {
+    "color": "#9C27B0",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-link"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  },
+  "location": [
+    {
+      "logic": null,
+      "rules": [
+        {
+          "type": "event_page_scroll_component",
+          "operator": "==",
+          "value": "#content-section",
+          "logic": "OR"
+        }
+      ]
+    }
+  ]
+}

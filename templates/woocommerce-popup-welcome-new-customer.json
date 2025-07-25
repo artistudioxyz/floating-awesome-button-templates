@@ -1,0 +1,74 @@
+{
+  "id": "woocommerce-popup-welcome-new-customer",
+  "name": "WooCommerce Welcome Popup for New Customers",
+  "description": "Display a welcoming popup for newly registered WooCommerce customers. Perfect for introducing your store, offering first-purchase discounts, and enhancing the shopping experience!",
+  "license": "premium",
+  "settings": {
+    "type": "modal",
+    "content": "✨ WELCOME TO OUR STORE! ✨\n\nThank you for creating an account! As a new customer, you now have access to:\n\n• Faster checkout process\n• Order history tracking\n• Personalized recommendations\n• Exclusive member discounts\n\nUse code **FIRSTBUY10** for 10% off your first purchase!\n\nHappy shopping! 🛍️"
+  },
+  "design": {
+    "color": "#7f54b3",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-cart-shopping"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  },
+  "modal": {
+    "layout": {
+      "id": "stacked",
+      "background": {
+        "color": "#fff"
+      },
+      "overlay": {
+        "color": "#f9f9f9",
+        "opacity": 0.8
+      },
+      "content": {
+        "padding": {
+          "top": "1",
+          "right": "1",
+          "bottom": "1",
+          "left": "1",
+          "sizing": "rem"
+        },
+        "margin": {
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "sizing": "rem"
+        }
+      }
+    },
+    "navigation": {
+      "iconCover": true
+    }
+  },
+  "location": [
+    {
+      "logic": null,
+      "rules": [
+        {
+          "type": "user_within_n_hour_after_registered",
+          "operator": "<",
+          "value": 24,
+          "logic": ["OR"]
+        }
+      ]
+    }
+  ],
+  "cookie": {
+    "expiration": "1"
+  }
+}

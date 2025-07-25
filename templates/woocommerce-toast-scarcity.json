@@ -1,0 +1,57 @@
+{
+  "id": "woocommerce-toast-scarcity",
+  "name": "WooCommerce Scarcity Toast",
+  "description": "Add a scarcity toast notification to create urgency with limited stock or time-sensitive offers. Perfect for WooCommerce stores looking to boost sales through scarcity marketing!",
+  "license": "premium",
+  "requires": ["woocommerce/woocommerce.php"],
+  "settings": {
+    "type": "toast",
+    "message": "Hurry! Only {product_quantity} items left in stock",
+    "duration": 5000,
+    "text_button": "",
+    "url_button": "",
+    "open_in_new_tab": false
+  },
+  "design": {
+    "color": "#7f54b3",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-fire-flame-curved"
+    },
+    "closeable": true,
+    "gravity": "top",
+    "position": "left",
+    "background": "#fff",
+    "text_color": "#020202",
+    "bar_color": "#7f54b3",
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  },
+  "cookie": {
+    "expiration": "0"
+  },
+  "location": [
+    {
+      "logic": null,
+      "rules": [
+        {
+          "type": "fields_custom_postmeta",
+          "operator": "<",
+          "value": {
+            "meta_key": "_stock",
+            "meta_value": "10"
+          },
+          "logic": "AND"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "woocommerce-toast-featured-product",
+  "name": "WooCommerce Featured Product Toast",
+  "description": "Add a toast notification to showcase your featured products. Perfect for highlighting special items and increasing product visibility in your WooCommerce store!",
+  "license": "free",
+  "requires": ["woocommerce/woocommerce.php"],
+  "settings": {
+    "type": "featured_product_toast",
+    "message": "Hurry! Only {product_quantity} left in stock.",
+    "duration": 5000,
+    "text_button": "View Product",
+    "open_in_new_tab": false
+  },
+  "design": {
+    "color": "#7f54b3",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-star"
+    },
+    "closeable": true,
+    "gravity": "top",
+    "position": "right",
+    "background": "#fff",
+    "text_color": "#020202",
+    "bar_color": "#7f54b3",
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  },
+  "cookie": {
+    "expiration": "0"
+  }
+}

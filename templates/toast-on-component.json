@@ -1,0 +1,50 @@
+{
+  "id": "toast-on-component",
+  "name": "Toast on Component",
+  "description": "Show a toast notification when a specific component becomes visible while scrolling your page. Great for highlighting important content sections with contextual messages and calls-to-action!",
+  "license": "premium",
+  "settings": {
+    "type": "toast",
+    "message": "This section has additional resources available!",
+    "duration": 5000,
+    "text_button": "View Resources",
+    "url_button": "#",
+    "open_in_new_tab": true
+  },
+  "design": {
+    "color": "#3F51B5",
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-book"
+    },
+    "closeable": true,
+    "gravity": "top",
+    "position": "left",
+    "background": "#fff",
+    "text_color": "#333333",
+    "bar_color": "#3F51B5",
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    }
+  },
+  "cookie": {
+    "expiration": "0"
+  },
+  "location": [
+    {
+      "logic": null,
+      "rules": [
+        {
+          "type": "event_page_scroll_component",
+          "operator": "==",
+          "value": "#content-section",
+          "logic": "OR"
+        }
+      ]
+    }
+  ]
+}

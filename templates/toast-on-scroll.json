@@ -1,0 +1,56 @@
+{
+  "id": "toast-on-scroll",
+  "name": "Toast on Scroll",
+  "description": "Display a toast notification that appears only after the user has scrolled past a specific height on the page. Perfect for delivering important messages or promotions when users are engaged with your content!",
+  "license": "premium",
+  "settings": {
+    "type": "toast",
+    "message": "Thanks for reading! Don't miss our special offer.",
+    "duration": 5000,
+    "text_button": "Learn More",
+    "url_button": "#",
+    "open_in_new_tab": true
+  },
+  "design": {
+    "color": "#FF5722",
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-gift"
+    },
+    "closeable": true,
+    "gravity": "top",
+    "position": "left",
+    "background": "#fff",
+    "text_color": "#333333",
+    "bar_color": "#FF5722",
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    }
+  },
+  "extraOptions": {
+    "page_scroll_height": {
+      "operator": ">",
+      "value": "500"
+    }
+  },
+  "cookie": {
+    "expiration": "0"
+  },
+  "location": [
+    {
+      "logic": null,
+      "rules": [
+        {
+          "type": "event_page_scroll_height",
+          "operator": ">",
+          "value": "500",
+          "logic": "OR"
+        }
+      ]
+    }
+  ]
+}

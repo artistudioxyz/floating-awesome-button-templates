@@ -1,0 +1,79 @@
+{
+  "id": "woocommerce-popup-cart-reminder",
+  "name": "WooCommerce Popup Cart Reminder",
+  "description": "Display a popup when visitors are about to leave your WooCommerce store with items in their cart. Perfect for reducing cart abandonment and encouraging customers to complete their purchase!",
+  "license": "premium",
+  "requires": ["woocommerce/woocommerce.php"],
+  "settings": {
+    "type": "modal",
+    "content": "🛒 Wait! You still have items in your cart! Complete your purchase now to secure these items before they sell out. Don't miss out on the products you've selected!\n\n<strong>Use code COMEBACK10 for 10% off your order if you complete your purchase now!</strong>"
+  },
+  "design": {
+    "color": "#7f54b3",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-cart-shopping"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  },
+  "modal": {
+    "layout": {
+      "id": "stacked",
+      "background": {
+        "color": "#fff"
+      },
+      "overlay": {
+        "color": "#f9f9f9",
+        "opacity": 0.8
+      },
+      "content": {
+        "padding": {
+          "top": "1",
+          "right": "1",
+          "bottom": "1",
+          "left": "1",
+          "sizing": "rem"
+        },
+        "margin": {
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "sizing": "rem"
+        }
+      }
+    },
+    "navigation": {
+      "iconCover": true
+    }
+  },
+  "trigger": {
+    "type": "exit_intent",
+    "delay": "0ms"
+  },
+  "cookie": {
+    "expiration": "0"
+  },
+  "location": [
+    {
+      "logic": null,
+      "rules": [
+        {
+          "type": "wc_cart_subtotal",
+          "operator": ">",
+          "value": "0",
+          "logic": ["OR"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "woocommerce-popup-scarcity-products",
+  "name": "WooCommerce Scarcity Products Popup",
+  "description": "Display a floating button that shows a popup with products that are running out of stock. This popup is perfect for helping customers quickly access products that are currently out of stock!",
+  "license": "premium",
+  "requires": ["woocommerce/woocommerce.php"],
+  "settings": {
+    "type": "scarcity_product"
+  },
+  "design": {
+    "color": "#7f54b3",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-hourglass-half"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  }
+}

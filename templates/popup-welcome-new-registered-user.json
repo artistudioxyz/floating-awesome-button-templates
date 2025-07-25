@@ -1,0 +1,74 @@
+{
+  "id": "popup-welcome-new-registered-user",
+  "name": "Welcome Popup for Newly Registered Users",
+  "description": "Display a welcoming popup for users who registered within a specific number of hours. Perfect for onboarding new members and providing initial guidance!",
+  "license": "premium",
+  "settings": {
+    "type": "modal",
+    "content": "✨ WELCOME TO OUR COMMUNITY! ✨\n\nThank you for joining us! As a new member, you now have access to exclusive content and features. Take a moment to explore your account and discover all the benefits of membership.\n\nIf you need any assistance, our support team is here to help!"
+  },
+  "design": {
+    "color": "#4CAF50",
+    "grouped": true,
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-user-plus"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "none",
+    "standalone": true
+  },
+  "modal": {
+    "layout": {
+      "id": "stacked",
+      "background": {
+        "color": "#fff"
+      },
+      "overlay": {
+        "color": "#f9f9f9",
+        "opacity": 0.8
+      },
+      "content": {
+        "padding": {
+          "top": "1",
+          "right": "1",
+          "bottom": "1",
+          "left": "1",
+          "sizing": "rem"
+        },
+        "margin": {
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "sizing": "rem"
+        }
+      }
+    },
+    "navigation": {
+      "iconCover": true
+    }
+  },
+  "location": [
+    {
+      "logic": null,
+      "rules": [
+        {
+          "type": "user_within_n_hour_after_registered",
+          "operator": "<",
+          "value": 24,
+          "logic": ["OR"]
+        }
+      ]
+    }
+  ],
+  "cookie": {
+    "expiration": "1"
+  }
+}
