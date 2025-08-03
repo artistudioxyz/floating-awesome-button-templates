@@ -3,7 +3,7 @@
   "name": "WooCommerce Cart Reminder",
   "docs": 12552,
   "description": "Add a floating cart reminder button that follows your customers as they browse your WooCommerce store. Enables customers to quickly check their cart contents and proceed to checkout from anywhere on your site!",
-  "license": "free",
+  "license": "premium",
   "requires": ["woocommerce/woocommerce.php"],
   "settings": {
     "type": "cart_reminder",
@@ -25,5 +25,18 @@
     },
     "shape": "none",
     "standalone": true
-  }
+  },
+  "location": [
+    {
+      "logic": null,
+      "rules": [
+        {
+          "type": "wc_cart_subtotal",
+          "operator": ">",
+          "value": "0",
+          "logic": ["OR"]
+        }
+      ]
+    }
+  ]
 }
