@@ -1,6 +1,7 @@
 {
   "id": "trello",
   "name": "Trello Button",
+  "docs": 13129,
   "description": "Add a floating Trello button to your website, making it easy for visitors to access your boards and collaborate on projects. Perfect for project management and team coordination!",
   "license": "free",
   "settings": {
