@@ -1,5 +1,6 @@
 {
   "id": "github",
+  "docs": 13599,
   "name": "GitHub Button",
   "description": "Add a floating GitHub button to your website, making it easy for visitors to access your repository or profile. Perfect for developers and open source projects!",
   "license": "free",
@@ -12,7 +13,7 @@
     "color": "#24292e",
     "grouped": true,
     "icon": {
-      "color": "#fff", 
+      "color": "#fff",
       "class": "fa-brands fa-github"
     },
     "responsive": {

@@ -1,10 +1,11 @@
 {
   "id": "newsletter",
+  "docs": 13552,
   "name": "Newsletter Button",
   "description": "Add a floating newsletter subscription button to your website, making it easy for visitors to sign up for your mailing list. Perfect for growing your email subscribers!",
   "license": "free",
   "settings": {
-    "type": "link", 
+    "type": "link",
     "link": "https://your-site-newsletter.com",
     "open_in_new_tab": false
   },

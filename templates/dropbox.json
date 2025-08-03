@@ -1,10 +1,11 @@
 {
   "id": "dropbox",
+  "docs": 13618,
   "name": "Dropbox Button",
   "description": "Add a floating Dropbox button to your website, allowing visitors to quickly access your shared Dropbox content. Perfect for file sharing and document distribution!",
   "license": "free",
   "settings": {
-    "type": "link", 
+    "type": "link",
     "link": "https://dropbox.com/sh/your-share-link",
     "open_in_new_tab": true
   },

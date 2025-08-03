@@ -1,5 +1,6 @@
 {
   "id": "join-newsletter-toast",
+  "docs": 13564,
   "name": "Join Newsletter Toast",
   "description": "Add a newsletter signup toast notification to grow your email list. Perfect for building an engaged subscriber base and keeping your audience updated!",
   "license": "free",
@@ -14,8 +15,8 @@
   "design": {
     "color": "#FF5722",
     "icon": {
-        "color": "#fff",
-        "class": "fa-solid fa-envelope-open-text"
+      "color": "#fff",
+      "class": "fa-solid fa-envelope-open-text"
     },
     "closeable": true,
     "gravity": "top",
