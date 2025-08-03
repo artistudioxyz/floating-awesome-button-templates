@@ -1,5 +1,6 @@
 {
   "id": "woocommerce-apply-coupon-total-customer-spend",
+  "docs": 13491,
   "name": "WooCommerce Apply Coupon by Total Customer Spend",
   "description": "Add a floating coupon button that appears when customers reach a specific total spend threshold. Perfect for rewarding loyal customers with special discounts!",
   "license": "premium",

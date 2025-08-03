@@ -1,5 +1,6 @@
 {
   "id": "woocommerce-apply-coupon-cart-subtotal",
+  "docs": 13392,
   "name": "WooCommerce Apply Coupon by Cart Subtotal",
   "description": "Add a floating coupon button that appears when customers reach a specific cart subtotal threshold. Perfect for encouraging larger purchases with special discounts!",
   "license": "premium",

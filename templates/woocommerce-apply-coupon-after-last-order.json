@@ -1,5 +1,6 @@
 {
   "id": "woocommerce-apply-coupon-after-last-order",
+  "docs": 13373,
   "name": "WooCommerce Apply Coupon After Last Order",
   "description": "Add a floating coupon button that appears within a specific time after customer's last order. Perfect for encouraging repeat purchases with special discounts!",
   "license": "premium",

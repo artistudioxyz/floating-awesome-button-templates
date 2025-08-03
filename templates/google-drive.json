@@ -1,5 +1,6 @@
 {
   "id": "google-drive",
+  "docs": 13144,
   "name": "Google Drive Button",
   "description": "Add a floating Google Drive button to your website, allowing visitors to quickly access your shared Google Drive content. Perfect for file sharing and document collaboration!",
   "license": "free",

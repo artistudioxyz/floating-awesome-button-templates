@@ -1,5 +1,6 @@
 {
   "id": "woocommerce-apply-coupon-cart-weight",
+  "docs": 13402,
   "name": "WooCommerce Apply Coupon by Cart Weight",
   "description": "Add a floating coupon button that appears when customers reach a specific cart weight threshold. Perfect for encouraging bulk purchases with special discounts!",
   "license": "premium",

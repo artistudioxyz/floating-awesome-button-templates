@@ -1,5 +1,6 @@
 {
   "id": "woocommerce-apply-coupon-logged-in-customer",
+  "docs": 13415,
   "name": "WooCommerce Apply Coupon for Logged-in Customers",
   "description": "Add a floating coupon button that appears only for logged-in customers. Perfect for rewarding your registered customers with exclusive discounts!",
   "license": "premium",
