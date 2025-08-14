@@ -1,0 +1,60 @@
+{
+  "id": "woocommerce-weekend-flash-toast",
+  "name": "WooCommerce Weekend Flash Sale Toast",
+  "description": "Display urgent weekend sale notifications with a dynamic toast. Ideal for WooCommerce stores running time-bound promotions to create scarcity during weekends.",
+  "license": "premium",
+  "requires": ["woocommerce/woocommerce.php"],
+  "settings": {
+    "duration": 5000,
+    "message": "Weekend Flash Sale! Enjoy 30% off on selected items - Offer ends Sunday night!",
+    "open_in_new_tab": false,
+    "text_button": "Shop Now",
+    "type": "toast",
+    "url_button": "/shop"
+  },
+  "design": {
+    "icon": {
+      "class": "fa-solid fa-clock",
+      "color": "#fff"
+    },
+    "standalone": false,
+    "bar_color": "#FF4444",
+    "grouped": true,
+    "position": "center",
+    "color": "#7f54b3",
+    "gravity": "bottom",
+    "background": "#fff0f0",
+    "closeable": true,
+    "responsive": {
+      "device": {
+        "desktop": 1,
+        "mobile": 1,
+        "tablet": 1
+      }
+    },
+    "shape": "pill",
+    "text_color": "#D80000"
+  },
+  "cookie": {
+    "expiration": "0"
+  },
+  "location": [
+    {
+      "rules": [
+        {
+          "logic": "AND",
+          "operator": "==",
+          "type": "schedule_day",
+          "value": "5"
+        },
+        {
+          "type": "schedule_time",
+          "value": "09:00",
+          "logic": "AND",
+          "operator": ">="
+        }
+      ],
+      "logic": "AND"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "black-friday-discount-toast",
+  "name": "Black Friday Discount Toast",
+  "description": "Display a festive toast notification to announce Black Friday sales. Ideal for e-commerce stores and businesses promoting limited-time offers!",
+  "license": "premium",
+  "settings": {
+    "type": "toast",
+    "url_button": "/shop",
+    "duration": 3000,
+    "message": "Black Friday Deals Live! Enjoy up to 60% OFF - Limited stock available.",
+    "open_in_new_tab": false,
+    "text_button": "Shop"
+  },
+  "design": {
+    "icon": {
+      "class": "fa-solid fa-tag",
+      "color": "#fff"
+    },
+    "bar_color": "#E74C3C",
+    "position": "right",
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "rounded",
+    "closeable": true,
+    "gravity": "top",
+    "grouped": true,
+    "color": "#E74C3C",
+    "text_color": "#2C3E50",
+    "background": "#fff",
+    "standalone": true
+  },
+  "cookie": {
+    "expiration": "0"
+  },
+  "location": [
+    {
+      "logic": "AND",
+      "rules": [
+        {
+          "logic": "AND",
+          "operator": "==",
+          "type": "schedule_month",
+          "value": "11"
+        },
+        {
+          "value": "5",
+          "logic": "AND",
+          "operator": "==",
+          "type": "schedule_day"
+        }
+      ]
+    }
+  ]
+}

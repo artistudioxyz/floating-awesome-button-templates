@@ -1,0 +1,59 @@
+{
+  "id": "earth-month-frontpage-toast",
+  "name": "Earth Month Frontpage Toast",
+  "description": "Display a promotional toast on the homepage throughout April for Earth Month, highlighting eco-friendly product discounts. Ideal for e-commerce platforms emphasizing sustainability.",
+  "license": "premium",
+  "settings": {
+    "message": "🌱 Earth Month Special: Get 20% off eco-friendly products! Limited time offer to support sustainable living.",
+    "open_in_new_tab": true,
+    "text_button": "Shop Now",
+    "type": "toast",
+    "url_button": "https://example.com/eco-friendly-collection",
+    "duration": 4000
+  },
+  "design": {
+    "position": "center",
+    "responsive": {
+      "device": {
+        "desktop": 1,
+        "mobile": 1,
+        "tablet": 1
+      }
+    },
+    "shape": "rounded",
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-leaf"
+    },
+    "text_color": "#2E7D32",
+    "bar_color": "#4CAF50",
+    "closeable": true,
+    "color": "#4CAF50",
+    "grouped": true,
+    "background": "#fff",
+    "gravity": "bottom",
+    "standalone": true
+  },
+  "cookie": {
+    "expiration": "0"
+  },
+  "location": [
+    {
+      "logic": null,
+      "rules": [
+        {
+          "logic": "OR",
+          "operator": "==",
+          "type": "schedule_month",
+          "value": "4"
+        },
+        {
+          "logic": "OR",
+          "operator": "==",
+          "type": "conditional_tags_conditions",
+          "value": "is_front_page"
+        }
+      ]
+    }
+  ]
+}

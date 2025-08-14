@@ -1,0 +1,66 @@
+{
+  "id": "woocommerce-toast-black-friday-blitz",
+  "name": "WooCommerce Black Friday Blitz Toast",
+  "description": "Display urgent toast notifications for Black Friday mega deals. Ideal for WooCommerce stores to create frenzy with limited-time offers and festive promotions.",
+  "license": "premium",
+  "requires": ["woocommerce/woocommerce.php"],
+  "settings": {
+    "message": "BLACK FRIDAY MADNESS! Flash deals - Up to 60% OFF sitewide! Offer ends midnight!",
+    "open_in_new_tab": true,
+    "text_button": "Grab Deals →",
+    "type": "toast",
+    "url_button": "/black-friday",
+    "duration": 3000
+  },
+  "design": {
+    "icon": {
+      "class": "fa-solid fa-gift",
+      "color": "#fff"
+    },
+    "text_color": "#2a2a2a",
+    "shape": "rounded",
+    "background": "#fff",
+    "responsive": {
+      "device": {
+        "desktop": 1,
+        "mobile": 1,
+        "tablet": 1
+      }
+    },
+    "closeable": false,
+    "standalone": true,
+    "bar_color": "#FFC107",
+    "color": "#7f54b3",
+    "grouped": true,
+    "position": "right",
+    "gravity": "bottom"
+  },
+  "cookie": {
+    "expiration": "0"
+  },
+  "location": [
+    {
+      "logic": "AND",
+      "rules": [
+        {
+          "value": "11",
+          "logic": "AND",
+          "operator": "==",
+          "type": "schedule_month"
+        },
+        {
+          "type": "schedule_day",
+          "value": "5",
+          "logic": "AND",
+          "operator": "=="
+        },
+        {
+          "logic": "AND",
+          "operator": ">=",
+          "type": "schedule_time",
+          "value": "09:00"
+        }
+      ]
+    }
+  ]
+}

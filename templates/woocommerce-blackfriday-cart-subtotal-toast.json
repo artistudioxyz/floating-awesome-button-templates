@@ -1,0 +1,60 @@
+{
+  "id": "woocommerce-blackfriday-cart-subtotal-toast",
+  "name": "WooCommerce Black Friday Cart Toast",
+  "description": "Trigger a festive toast notification when cart subtotal meets threshold, encouraging higher spending with limited-time gift offers. Ideal for seasonal promotions!",
+  "license": "premium",
+  "requires": ["woocommerce/woocommerce.php"],
+  "settings": {
+    "text_button": "Claim Offer",
+    "type": "toast",
+    "url_button": "/cart",
+    "duration": 3000,
+    "message": "Spend $100+ in your cart to unlock a FREE holiday gift! Limited Black Friday offer 🎁",
+    "open_in_new_tab": false
+  },
+  "design": {
+    "position": "right",
+    "closeable": true,
+    "color": "#7f54b3",
+    "text_color": "#FFFFFF",
+    "bar_color": "#FFD166",
+    "gravity": "bottom",
+    "background": "#0F1A20",
+    "grouped": true,
+    "icon": {
+      "class": "fa-solid fa-gift",
+      "color": "#fff"
+    },
+    "shape": "rounded",
+    "standalone": true,
+    "responsive": {
+      "device": {
+        "desktop": 1,
+        "mobile": 1,
+        "tablet": 1
+      }
+    }
+  },
+  "cookie": {
+    "expiration": "0"
+  },
+  "location": [
+    {
+      "logic": "AND",
+      "rules": [
+        {
+          "logic": "AND",
+          "operator": ">=",
+          "type": "wc_cart_subtotal",
+          "value": "100"
+        },
+        {
+          "logic": "AND",
+          "operator": "==",
+          "type": "schedule_month",
+          "value": "11"
+        }
+      ]
+    }
+  ]
+}

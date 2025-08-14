@@ -1,0 +1,59 @@
+{
+  "id": "earth-day-environment-toast",
+  "name": "Earth Day Environmental Toast",
+  "description": "Display an eco-conscious toast notification for Earth Day to raise awareness about environmental protection and sustainability efforts. Ideal for green organizations and eco-friendly brands!",
+  "license": "premium",
+  "settings": {
+    "text_button": "Take Action",
+    "url_button": "https://www.earthday.org/",
+    "open_in_new_tab": true,
+    "type": "toast",
+    "message": "Today is Earth Day! Join us in protecting our planet for future generations through sustainable actions.",
+    "duration": 3000
+  },
+  "design": {
+    "position": "left",
+    "bar_color": "#4CAF50",
+    "grouped": true,
+    "closeable": true,
+    "gravity": "top",
+    "background": "#fff",
+    "standalone": true,
+    "color": "#4CAF50",
+    "text_color": "#1A237E",
+    "shape": "none",
+    "icon": {
+      "color": "#fff",
+      "class": "fa-solid fa-leaf"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    }
+  },
+  "cookie": {
+    "expiration": "0"
+  },
+  "location": [
+    {
+      "logic": null,
+      "rules": [
+        {
+          "logic": "OR",
+          "operator": "==",
+          "type": "schedule_month",
+          "value": "4"
+        },
+        {
+          "logic": "OR",
+          "operator": "==",
+          "type": "schedule_day",
+          "value": "6"
+        }
+      ]
+    }
+  ]
+}
