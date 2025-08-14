@@ -1,0 +1,48 @@
+{
+  "id": "whatsapp-chat-on-product-scroll",
+  "name": "WhatsApp Chat on Product Scroll",
+  "description": "Displays a floating WhatsApp button that appears after scrolling 300px on product pages, perfect for instant customer support during shopping sessions.",
+  "license": "premium",
+  "requires": ["woocommerce/woocommerce.php"],
+  "settings": {
+    "text": "Chat via WhatsApp",
+    "type": "link",
+    "link": "https://wa.me/1234567890"
+  },
+  "design": {
+    "color": "#25D366",
+    "grouped": true,
+    "icon": {
+      "class": "fa-brands fa-whatsapp",
+      "color": "#ffffff"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "pill",
+    "standalone": true
+  },
+  "location": [
+    {
+      "rules": [
+        {
+          "operator": "==",
+          "type": "post_type",
+          "value": "product",
+          "logic": "AND"
+        },
+        {
+          "logic": "AND",
+          "operator": ">",
+          "type": "event_page_scroll_height",
+          "value": "500"
+        }
+      ],
+      "logic": "AND"
+    }
+  ]
+}

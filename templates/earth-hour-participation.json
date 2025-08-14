@@ -1,0 +1,65 @@
+{
+  "id": "earth-hour-participation",
+  "name": "Earth Hour Participation Toast",
+  "description": "Encourage energy conservation with a timed toast notification for Earth Hour. Ideal for eco-conscious brands and communities promoting global climate action.",
+  "license": "premium",
+  "settings": {
+    "message": "It's Earth Hour! Join millions worldwide by turning off non-essential lights from 8:30-9:30 PM to show your commitment to our planet.",
+    "open_in_new_tab": true,
+    "text_button": "Learn More",
+    "type": "toast",
+    "url_button": "https://www.earthhour.org/",
+    "duration": 3000
+  },
+  "design": {
+    "standalone": true,
+    "background": "#1A237E",
+    "shape": "none",
+    "grouped": true,
+    "icon": {
+      "class": "fa-regular fa-lightbulb",
+      "color": "#FFD700"
+    },
+    "position": "center",
+    "text_color": "#FFFFFF",
+    "bar_color": "#1A237E",
+    "gravity": "top",
+    "closeable": true,
+    "color": "#1A237E",
+    "responsive": {
+      "device": {
+        "desktop": 1,
+        "mobile": 1,
+        "tablet": 1
+      }
+    }
+  },
+  "cookie": {
+    "expiration": "0"
+  },
+  "location": [
+    {
+      "logic": "AND",
+      "rules": [
+        {
+          "logic": "OR",
+          "operator": "==",
+          "type": "schedule_month",
+          "value": "4"
+        },
+        {
+          "logic": "OR",
+          "operator": "==",
+          "type": "schedule_day",
+          "value": "6"
+        },
+        {
+          "operator": ">=",
+          "type": "schedule_time",
+          "value": "20:30",
+          "logic": "OR"
+        }
+      ]
+    }
+  ]
+}

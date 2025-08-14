@@ -1,0 +1,60 @@
+{
+  "id": "woocommerce-blackfriday-toast",
+  "name": "WooCommerce Black Friday Toast",
+  "description": "Display a festive toast notification during November for Black Friday promotions. Ideal for creating time-sensitive urgency on product pages in WooCommerce stores.",
+  "license": "premium",
+  "requires": ["woocommerce/woocommerce.php"],
+  "settings": {
+    "type": "toast",
+    "url_button": "",
+    "duration": 5000,
+    "message": "Black Friday Deal! Last chance to grab this offer before it's gone!",
+    "open_in_new_tab": false,
+    "text_button": "Shop Now"
+  },
+  "design": {
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "color": "#7f54b3",
+    "gravity": "top",
+    "grouped": true,
+    "background": "#2d2d2d",
+    "bar_color": "#FFD700",
+    "icon": {
+      "class": "fa-solid fa-bag-shopping",
+      "color": "#fff"
+    },
+    "position": "right",
+    "text_color": "#ffffff",
+    "closeable": true,
+    "shape": "rounded",
+    "standalone": true
+  },
+  "cookie": {
+    "expiration": "0"
+  },
+  "location": [
+    {
+      "logic": "AND",
+      "rules": [
+        {
+          "value": "11",
+          "logic": "AND",
+          "operator": "==",
+          "type": "schedule_month"
+        },
+        {
+          "operator": "==",
+          "type": "post_type",
+          "value": "product",
+          "logic": "AND"
+        }
+      ]
+    }
+  ]
+}

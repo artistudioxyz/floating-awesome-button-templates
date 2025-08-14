@@ -1,0 +1,50 @@
+{
+  "id": "woocommerce-december-promo-toast",
+  "name": "December Discount Toast",
+  "description": "Display a festive toast notification with a holiday discount offer when users scroll to featured product sections. Perfect for promoting seasonal WooCommerce deals and boosting conversions!",
+  "license": "premium",
+  "settings": {
+    "type": "toast",
+    "url_button": "/december-sale",
+    "duration": 6000,
+    "message": "🎄 Holiday Exclusive! Save 25% on featured items!",
+    "open_in_new_tab": false,
+    "text_button": "Shop Now"
+  },
+  "design": {
+    "icon": {
+      "color": "#2E7D32",
+      "class": "fa-solid fa-gift"
+    },
+    "background": "#FFF3E0",
+    "text_color": "#1B5E20",
+    "color": "#7f54b3",
+    "gravity": "bottom",
+    "responsive": {
+      "device": {
+        "desktop": 1,
+        "mobile": 1,
+        "tablet": 1
+      }
+    },
+    "bar_color": "#D32F2F",
+    "position": "right",
+    "closeable": true
+  },
+  "cookie": {
+    "expiration": "24"
+  },
+  "location": [
+    {
+      "rules": [
+        {
+          "logic": "AND",
+          "operator": "==",
+          "type": "schedule_month",
+          "value": "12"
+        }
+      ],
+      "logic": "AND"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "black-friday-toast",
+  "name": "Black Friday Blast",
+  "description": "Display an eye-catching toast announcing Black Friday sales with festive flair. Ideal for e-commerce stores to boost seasonal conversions!",
+  "license": "free",
+  "settings": {
+    "url_button": "/black-friday-sale",
+    "duration": 3500,
+    "message": "🔥 Huge Black Friday Deals! Up to 70% OFF - Shop Now!",
+    "open_in_new_tab": true,
+    "text_button": "Grab the Deal",
+    "type": "toast"
+  },
+  "design": {
+    "background": "#FFF3E0",
+    "color": "#FF4444",
+    "gravity": "bottom",
+    "icon": {
+      "class": "fa-solid fa-gift",
+      "color": "#FFD700"
+    },
+    "position": "center",
+    "text_color": "#D32F2F",
+    "bar_color": "#FF4444",
+    "closeable": false,
+    "responsive": {
+      "device": {
+        "desktop": 1,
+        "mobile": 1,
+        "tablet": 1
+      }
+    }
+  },
+  "cookie": {
+    "expiration": "1"
+  },
+  "location": [
+    {
+      "logic": null,
+      "rules": [
+        {
+          "logic": "AND",
+          "operator": "==",
+          "type": "schedule_month",
+          "value": "11"
+        },
+        {
+          "value": "5",
+          "logic": "AND",
+          "operator": "==",
+          "type": "schedule_day"
+        }
+      ]
+    }
+  ]
+}

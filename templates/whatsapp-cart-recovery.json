@@ -1,0 +1,42 @@
+{
+  "id": "whatsapp-cart-recovery",
+  "name": "WhatsApp Cart Recovery Button",
+  "description": "Display a proactive WhatsApp button on the cart page to assist users with abandoned carts, encouraging direct communication for recovery opportunities.",
+  "license": "premium",
+  "requires": ["woocommerce/woocommerce.php"],
+  "settings": {
+    "link": "https://wa.me/?text=Need%20help%20with%20your%20cart%3A%20{cart_url}",
+    "text": "Chat Now",
+    "type": "link"
+  },
+  "design": {
+    "grouped": true,
+    "icon": {
+      "class": "fa-brands fa-whatsapp",
+      "color": "#fff"
+    },
+    "responsive": {
+      "device": {
+        "mobile": 1,
+        "tablet": 1,
+        "desktop": 1
+      }
+    },
+    "shape": "pill",
+    "standalone": true,
+    "color": "#25D366"
+  },
+  "location": [
+    {
+      "logic": "AND",
+      "rules": [
+        {
+          "logic": "OR",
+          "operator": "==",
+          "type": "user_session",
+          "value": "user_session_logged_in"
+        }
+      ]
+    }
+  ]
+}
